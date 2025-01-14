@@ -6,7 +6,10 @@ website:
   title: "gbwnzl"
   favicon: ./coronene_icon.png
   google-analytics: "UA-XXXXXXXX"
+  reader-mode: true
   twitter-card: true
+  repo-url: https://github.com/gbwnzl/gbwnzl.github.io
+  repo-actions: [edit, source, issue]
 
   navbar:
     background: $blueviolet
