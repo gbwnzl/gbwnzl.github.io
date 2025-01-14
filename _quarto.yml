@@ -4,7 +4,7 @@ project:
 
 website:
   title: "gbwnzl"
-  favicon: ./coronene_icon.png
+  favicon: files/coronene_icon.png
   google-analytics: "UA-XXXXXXXX"
   reader-mode: true
   twitter-card: true
@@ -14,8 +14,8 @@ website:
   navbar:
     background: $blueviolet
     title: false
-    logo: ./coronene_icon.png
-    logo-alt: "Cyanocoronene"
+    logo: files/coronene_icon.png
+    logo-alt: "Coronene"
     left:
       - href: index.qmd
         text: About
