@@ -1,0 +1,51 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "gbwnzl",
+    "section": "",
+    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site"
+  },
+  {
+    "objectID": "cv.html",
+    "href": "cv.html",
+    "title": "CV",
+    "section": "",
+    "text": "Short CV"
+  },
+  {
+    "objectID": "pub.html",
+    "href": "pub.html",
+    "title": "Publications",
+    "section": "",
+    "text": "About this site"
+  },
+  {
+    "objectID": "example.html",
+    "href": "example.html",
+    "title": "Finley Malloc",
+    "section": "",
+    "text": "Finley Malloc is the Chief Data Scientist at Wengo Analytics. When not innovating on data platforms, Finley enjoys spending time unicycling and playing with her pet iguana."
+  },
+  {
+    "objectID": "example.html#education",
+    "href": "example.html#education",
+    "title": "Finley Malloc",
+    "section": "Education",
+    "text": "Education\nUniversity of California, San Diego | San Diego, CA PhD in Mathematics | Sept 2011 - June 2015\nMacalester College | St. Paul MA B.A in Economics | Sept 2007 - June 2011"
+  },
+  {
+    "objectID": "example.html#experience",
+    "href": "example.html#experience",
+    "title": "Finley Malloc",
+    "section": "Experience",
+    "text": "Experience\nWengo Analytics | Head Data Scientist | April 2018 - present\nGeoScynce | Chief Analyst | Spet 2012 - April 2018"
+  }
+]

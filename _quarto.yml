@@ -1,0 +1,41 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "gbwnzl"
+  favicon: ./coronene_icon.png
+  google-analytics: "UA-XXXXXXXX"
+  twitter-card: true
+
+  navbar:
+    background: $blueviolet
+    title: false
+    logo: ./coronene_icon.png
+    logo-alt: "Cyanocoronene"
+    left:
+      - href: index.qmd
+        text: About
+      - href: cv/index.qmd
+        text: CV
+      - href: publications/index.qmd
+        text: Publications
+    right: 
+    - icon: github
+      href: https://github.com/gbwnzl
+      target: _blank
+      # - python/index.qmd
+      # - accord.qmd
+  page-footer:
+    background: $dark
+    left: © Gabi Wenzel
+    right: This website is built with [{{< fa brands github title="GitHub" >}}](https://github.com/gbwnzl){target=_blank}, <a href="https://code.visualstudio.com/"><img src="VSCode_icon.svg" alt="VS Code" style="width:18px;height:18px;"></a>, and [Quarto](https://quarto.org/){target=_blank}.
+
+
+format:
+  html:
+    theme:
+      light: [cosmo, light.scss]
+      dark: [cosmo, dark.scss]
+    css: styles.css
+    toc: true

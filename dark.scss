@@ -1,0 +1,21 @@
+/*-- scss:defaults --*/
+$code-color: #bb8acf;
+
+// colors
+$lavender: #B4AAE9;
+$purple: #5D4EF5;
+$blueviolet: #5362C4;
+$cyan: #9BDCEF;
+$cyano: #41A4DC;
+$dark: #222222;
+$body-bg: #0F1419 !default;
+$body-color: #F8F8F3 !default;
+$link-color: #5362C4 !default;
+$selection-bg: #B4AAE9 !default;
+$bg-primary: $cyan !default;
+$primary: $cyan !default;
+
+
+/*-- scss:rules --*/
+.dark-mode { display: block; }
+.light-mode { display: none; }

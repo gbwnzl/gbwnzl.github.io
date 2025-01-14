@@ -1,0 +1,21 @@
+---
+title: "Gabi Wenzel"
+image: "./profilepic.png"
+about:
+    template: jolla
+    links:
+        - icon: envelope
+          href: mailto:gwenzel@mit.edu
+        - icon: linkedin
+          href: https://www.linkedin.com/in/gabiwenzel/
+        - icon: github
+          href: https://github.com/gbwnzl
+        - icon: google
+          href: https://scholar.google.com/citations?user=7z3WAPsAAAAJ&hl=en&oi=ao
+---
+
+<b><span style="color:#5362C4;">Research Scientist</span><br>
+Department of Chemistry | MIT <br>
+Center for Astrophysics | Harvard & Smithsonian</b>
+
+Hi, I'm Gabi, an experimental physicist navigating a life between the laboraotry and space. My interest is in laboratory astrophysics and astrochemistry working with molecules that are present in the interstellar medium, the space between the stars. While all molecules are beautiful, I have a favorite family called polycyclic aromatic hydrocarbons (PAHs). While I'm trying to understand their photophysics, relaxation channels, and pssible formation pathways, I am especially excited about contributing to the efforts of detecting PAHs in space!

@@ -1,0 +1,32 @@
+{
+  "index.qmd": {
+    "index.html": "5d874264"
+  },
+  "about.qmd": {
+    "about.html": "0ef3a060"
+  },
+  "pub.qmd": {
+    "pub.html": "9089afa7"
+  },
+  "cv.qmd": {
+    "cv.html": "129b1017"
+  },
+  "example.qmd": {
+    "example.html": "3b182f4d"
+  },
+  "python.qmd": {
+    "python.html": "c1d1492c"
+  },
+  "python/index.qmd": {
+    "index.html": "957f88b0"
+  },
+  "publications/index.qmd": {
+    "index.html": "97e659da"
+  },
+  "cv/index.qmd": {
+    "index.html": "88d9f3bc"
+  },
+  "accord.qmd": {
+    "accord.html": "178e99b1"
+  }
+}
