@@ -1,138 +1,5 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Gabi Wenzel",
-    "section": "",
-    "text": "Research Scientist Department of Chemistry | MIT  Center for Astrophysics | Harvard & Smithsonian\nHi, I’m Gabi, an experimental physicist navigating a life between the laboraotry and space. My interest is in laboratory astrophysics and astrochemistry working with molecules that are present in the interstellar medium, the space between the stars. While all molecules are beautiful, I have a favorite family called polycyclic aromatic hydrocarbons (PAHs). While I’m trying to understand their photophysics, relaxation channels, and pssible formation pathways, I am especially excited about contributing to the efforts of detecting PAHs in space!"
-  },
-  {
-    "objectID": "cv.html",
-    "href": "cv.html",
-    "title": "Short CV  Gabi Wenzel",
-    "section": "",
-    "text": "Department of Chemistry | MIT | Cambridge, MA, USA  Research Scientist | Dec 2024 - present  \n Center for Astrophysics | Harvard & Smithsonian | Cambridge, MA, USA   Visiting Scientist | Oct 2024 - present  \n Department of Chemistry | MIT | Cambridge, MA, USA   Postdoc | Oct 2022 - Nov 2024  \n Center for Interstellar Catalysis | Aarhus University | Aarhus, Denmark   Postdoc | Oct 2020 - Sept 2022"
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "About this site"
-  },
-  {
-    "objectID": "pub.html",
-    "href": "pub.html",
-    "title": "Publications",
-    "section": "",
-    "text": "Wenzel, G.; Speak, T. H.; Changala, P. B.; Willis, R. H. J.; Burkhardt, A. M.; Zhang, S.; Bergin, E. A.; Byrne, A. N.; Charnley, S. B.; Fried, Z. T. P.; Gupta, H.; Herbst, E.; Holdren, M. S.; Lipnicky, A.; Loomis, R. A.; Shingledecker, C. N.; Xue, C.; Remijan, A. J.; Wendlandt, A. E.; McCarthy, M. C.; Cooke, I. R.; McGuire, B. A. Detections of Interstellar Aromatic Nitriles 2-Cyanopyrene and 4-Cyanopyrene in TMC-1. Nat Astron 2024, 1–9. https://doi.org/10.1038/s41550-024-02410-9.\nWenzel, G.; Cooke, I. R.; Changala, P. B.; Bergin, E. A.; Zhang, S.; Burkhardt, A. M.; Byrne, A. N.; Charnley, S. B.; Cordiner, M. A.; Duffy, M.; Fried, Z. T. P.; Gupta, H.; Holdren, M. S.; Lipnicky, A.; Loomis, R. A.; Shay, H. T.; Shingledecker, C. N.; Siebert, M. A.; Stewart, D. A.; Willis, R. H. J.; Xue, C.; Remijan, A. J.; Wendlandt, A. E.; McCarthy, M. C.; McGuire, B. A. Detection of Interstellar 1-Cyanopyrene: A Four-Ring Polycyclic Aromatic Hydrocarbon. Science 2024, 386 (6723), 810–813. https://doi.org/10.1126/science.adq6391.\nRemijan, A. J.; Fried, Z. T. P.; Cooke, I. R.; Wenzel, G.; Loomis, R.; Shingledecker, C. N.; Lipnicky, A.; Xue, C.; McCarthy, M. C.; McGuire, B. A. High Spectral Resolution Observations of Propynal (HCCCHO) toward TMC-1 from the GOTHAM Large Program on the GBT. ApJ 2024, 976 (1), 105. https://doi.org/10.3847/1538-4357/ad856e.\nFried, Z. T. P.; El-Abd, S. J.; Hays, B. M.; Wenzel, G.; Byrne, A. N.; Margulès, L.; Motiyenko, R. A.; Shipman, S. T.; Horne, M. P.; Jørgensen, J. K.; Brogan, C. L.; Hunter, T. R.; Remijan, A. J.; Lipnicky, A.; Loomis, R. A.; McGuire, B. A. Rotational Spectrum and First Interstellar Detection of 2-Methoxyethanol Using ALMA Observations of NGC 6334I. ApJL 2024, 965 (2), L23. https://doi.org/10.3847/2041-8213/ad37ff."
-  },
-  {
-    "objectID": "example.html",
-    "href": "example.html",
-    "title": "Finley Malloc",
-    "section": "",
-    "text": "Finley Malloc is the Chief Data Scientist at Wengo Analytics. When not innovating on data platforms, Finley enjoys spending time unicycling and playing with her pet iguana."
-  },
-  {
-    "objectID": "example.html#education",
-    "href": "example.html#education",
-    "title": "Finley Malloc",
-    "section": "Education",
-    "text": "Education\nUniversity of California, San Diego | San Diego, CA PhD in Mathematics | Sept 2011 - June 2015\nMacalester College | St. Paul MA B.A in Economics | Sept 2007 - June 2011"
-  },
-  {
-    "objectID": "example.html#experience",
-    "href": "example.html#experience",
-    "title": "Finley Malloc",
-    "section": "Experience",
-    "text": "Experience\nWengo Analytics | Head Data Scientist | April 2018 - present\nGeoScynce | Chief Analyst | Spet 2012 - April 2018"
-  },
-  {
-    "objectID": "index.html#experience",
-    "href": "index.html#experience",
-    "title": "Gabi Wenzel",
-    "section": "",
-    "text": "Center for Astrophysics | Harvard & Smithsonian | Cambridge, MA, USA Visiting Scientist | Oct 2024 - present\nDepartment of Chemistry | MIT | Cambridge, MA, USA Research Scientist | Dec 2024 - present\nDepartment of Chemistry | MIT | Cambridge, MA, USA Postdoc | Oct 2022 - Nov 2024\nCenter for Interstellar Catalysis | Aarhus University | Aarhus, Denmark Postdoc | Oct 2020 - Sept 2022"
-  },
-  {
-    "objectID": "index.html#education",
-    "href": "index.html#education",
-    "title": "Gabi Wenzel",
-    "section": "Education",
-    "text": "Education\nUniversity of Toulouse | Toulouse, France PhD in Mathematics | June 2017 - July 2020\nUniversity of Münster | Münster, Germany M.Sc. in Physics | Oct 2014 - Mar 2017\nUniversity of Münster | Münster, Germany B.Sc. in Physics | Oct 2010 - Sept 2014"
-  },
-  {
-    "objectID": "cv.html#experience",
-    "href": "cv.html#experience",
-    "title": "Short CV  Gabi Wenzel",
-    "section": "",
-    "text": "Department of Chemistry | MIT | Cambridge, MA, USA  Research Scientist | Dec 2024 - present  \n Center for Astrophysics | Harvard & Smithsonian | Cambridge, MA, USA   Visiting Scientist | Oct 2024 - present  \n Department of Chemistry | MIT | Cambridge, MA, USA   Postdoc | Oct 2022 - Nov 2024  \n Center for Interstellar Catalysis | Aarhus University | Aarhus, Denmark   Postdoc | Oct 2020 - Sept 2022"
-  },
-  {
-    "objectID": "cv.html#education",
-    "href": "cv.html#education",
-    "title": "Short CV  Gabi Wenzel",
-    "section": "Education",
-    "text": "Education\n University of Toulouse | Toulouse, France  PhD in Laboratory Astrophysics | June 2017 - July 2020  \n University of Münster | Münster, Germany   M.Sc. in Physics | Oct 2014 - Mar 2017  \n University of Münster | Münster, Germany  B.Sc. in Physics | Oct 2010 - Sept 2014"
-  },
-  {
-    "objectID": "pub.html#section",
-    "href": "pub.html#section",
-    "title": "Publications",
-    "section": "",
-    "text": "Wenzel, G.; Speak, T. H.; Changala, P. B.; Willis, R. H. J.; Burkhardt, A. M.; Zhang, S.; Bergin, E. A.; Byrne, A. N.; Charnley, S. B.; Fried, Z. T. P.; Gupta, H.; Herbst, E.; Holdren, M. S.; Lipnicky, A.; Loomis, R. A.; Shingledecker, C. N.; Xue, C.; Remijan, A. J.; Wendlandt, A. E.; McCarthy, M. C.; Cooke, I. R.; McGuire, B. A. Detections of Interstellar Aromatic Nitriles 2-Cyanopyrene and 4-Cyanopyrene in TMC-1. Nat Astron 2024, 1–9. https://doi.org/10.1038/s41550-024-02410-9.\nWenzel, G.; Cooke, I. R.; Changala, P. B.; Bergin, E. A.; Zhang, S.; Burkhardt, A. M.; Byrne, A. N.; Charnley, S. B.; Cordiner, M. A.; Duffy, M.; Fried, Z. T. P.; Gupta, H.; Holdren, M. S.; Lipnicky, A.; Loomis, R. A.; Shay, H. T.; Shingledecker, C. N.; Siebert, M. A.; Stewart, D. A.; Willis, R. H. J.; Xue, C.; Remijan, A. J.; Wendlandt, A. E.; McCarthy, M. C.; McGuire, B. A. Detection of Interstellar 1-Cyanopyrene: A Four-Ring Polycyclic Aromatic Hydrocarbon. Science 2024, 386 (6723), 810–813. https://doi.org/10.1126/science.adq6391.\nRemijan, A. J.; Fried, Z. T. P.; Cooke, I. R.; Wenzel, G.; Loomis, R.; Shingledecker, C. N.; Lipnicky, A.; Xue, C.; McCarthy, M. C.; McGuire, B. A. High Spectral Resolution Observations of Propynal (HCCCHO) toward TMC-1 from the GOTHAM Large Program on the GBT. ApJ 2024, 976 (1), 105. https://doi.org/10.3847/1538-4357/ad856e.\nFried, Z. T. P.; El-Abd, S. J.; Hays, B. M.; Wenzel, G.; Byrne, A. N.; Margulès, L.; Motiyenko, R. A.; Shipman, S. T.; Horne, M. P.; Jørgensen, J. K.; Brogan, C. L.; Hunter, T. R.; Remijan, A. J.; Lipnicky, A.; Loomis, R. A.; McGuire, B. A. Rotational Spectrum and First Interstellar Detection of 2-Methoxyethanol Using ALMA Observations of NGC 6334I. ApJL 2024, 965 (2), L23. https://doi.org/10.3847/2041-8213/ad37ff."
-  },
-  {
-    "objectID": "pub.html#section-1",
-    "href": "pub.html#section-1",
-    "title": "Publications",
-    "section": "2023",
-    "text": "2023\nRasmussen, A. P.; Wenzel, G.; Hornekær, L.; Andersen, L. H. Gas-Phase Electronic Action Absorption Spectra of Protonated Oxygen-Functionalized Polycyclic Aromatic Hydrocarbons (OPAHs). A&A 2023, 674, A103. https://doi.org/10.1051/0004-6361/202346003."
-  },
-  {
-    "objectID": "pub.html#section-2",
-    "href": "pub.html#section-2",
-    "title": "Publications",
-    "section": "2022",
-    "text": "2022\nWenzel, G.; Simon, A.; Banhatti, S.; Jusko, P.; Schlemmer, S.; Brünken, S.; Joblin, C. Infrared Spectroscopy of the Benzylium-like (and Tropylium-like) Isomers Formed in the –H Dissociative Ionization of Methylated PAHs. Journal of Molecular Spectroscopy 2022, 385, 111620. https://doi.org/10.1016/j.jms.2022.111620.\nBanhatti, S.; Rap, D. B.; Simon, A.; Wenzel, G.; Leboucher, H.; Joblin, C.; Redlich, B.; Schlemmer, S.; Brünken, S. Formation of the Acenaphthylene Cation as a Common C2H2-Loss Fragment in Dissociative Ionization of the PAH Isomers Anthracene and Phenanthrene. Phys. Chem. Chem. Phys. 2022. https://doi.org/10.1039/D2CP03835H."
-  },
-  {
-    "objectID": "pub.html#section-3",
-    "href": "pub.html#section-3",
-    "title": "Publications",
-    "section": "2020",
-    "text": "2020\nWenzel, G.; Joblin, C.; Giuliani, A.; Castillo, S. R.; Mulas, G.; Ji, M.; Sabbah, H.; Quiroga, S.; Peña, D.; Nahon, L. Astrochemical Relevance of VUV Ionization of Large PAH Cations. A&A 2020, 641, A98. https://doi.org/10.1051/0004-6361/202038139.\nJoblin, C.; Wenzel, G.; Castillo, S. R.; Simon, A.; Sabbah, H.; Bonnamy, A.; Toublanc, D.; Mulas, G.; Ji, M.; Giuliani, A.; Nahon, L. Photo-Processing of Astro-PAHs. J. Phys.: Conf. Ser. 2020, 1412, 062002. https://doi.org/10.1088/1742-6596/1412/6/062002.\nBernard, J.; Ji, M. C.; Martin, S.; Wenzel, G.; Al-Mogeeth, A.; Stockett, M. H.; Schmidt, H. T.; Zettergren, H.; Joblin, C. Radiative Cooling Dynamics of Anthracene Cations Stored in DESIREE Studied via the Time Evolution of 2-Photon-Absorption Induced Dissociation Rate. J. Phys.: Conf. Ser. 2020, 1412, 232013. https://doi.org/10.1088/1742-6596/1412/23/232013."
-  },
-  {
-    "objectID": "pub.html#section-4",
-    "href": "pub.html#section-4",
-    "title": "Publications",
-    "section": "2019",
-    "text": "2019\nWenzel, G.; Castillo, S. R.; Mulas, G.; Ji, M.-C.; Bonnamy, A.; Sabbah, H.; Giuliani, A.; Nahon, L.; Joblin, C. Photoprocessing of Large PAH Cations. Proceedings of the International Astronomical Union 2019, 15 (S350), 388–389. https://doi.org/10.1017/S1743921319007063.\nKleimeier, N. F.; Wenzel, G.; Urban, A. J.; Tchalala, M. R.; Oughaddou, H.; Dedkov, Y.; Voloshina, E.; Zacharias, H. Unoccupied Electronic Band Structure of Pentagonal Si Nanoribbons on Ag(110). Phys. Chem. Chem. Phys. 2019, 21 (32), 17811–17820.  https://doi.org/10.1039/C9CP02239B."
-  },
-  {
-    "objectID": "pub.html#section-5",
-    "href": "pub.html#section-5",
-    "title": "Publications",
-    "section": "2018",
-    "text": "2018\nJusko, P.; Simon, A.; Wenzel, G.; Brünken, S.; Schlemmer, S.; Joblin, C. Identification of the Fragment of the 1-Methylpyrene Cation by Mid-IR Spectroscopy. Chemical Physics Letters 2018, 698, 206–210. https://doi.org/10.1016/j.cplett.2018.03.028."
-  },
-  {
-    "objectID": "pub.html#section-6",
-    "href": "pub.html#section-6",
-    "title": "Publications",
-    "section": "2017",
-    "text": "2017\nEspeter, P.; Keutner, C.; Roese, P.; Shamout, K.; Berges, U.; Wenzel, G.; Bignardi, L.; Kleimeier, N. F.; Zacharias, H.; Westphal, C. Facing the Interaction of Adsorbed Silicon Nano-Ribbons on Silver. Nanotechnology 2017, 28 (45), 455701. https://doi.org/10.1088/1361-6528/aa9012."
-  },
-  {
-    "objectID": "python.html",
-    "href": "python.html",
-    "title": "matplotlib demo",
-    "section": "",
-    "text": "For a demonstration of a line plot on a polar axis, see Figure 1.\n\n\nCode\nimport numpy as np\nimport matplotlib.pyplot as plt\n\n# from astromol import *\n# make_mols_slide()\n\nr = np.arange(0, 2, 0.01)\ntheta = 2 * np.pi * r\nfig, ax = plt.subplots(\n  subplot_kw = {'projection': 'polar'} \n)\nax.plot(theta, r)\nax.set_rticks([0.5, 1, 1.5, 2])\nax.grid(True)\nplt.show()\n\n\n\n\n\n\n\n\nFigure 1: A line plot on a polar axis"
-  },
-  {
     "objectID": "cv/index.html",
     "href": "cv/index.html",
     "title": "Short CV  Gabi Wenzel",
@@ -152,6 +19,20 @@
     "title": "Short CV  Gabi Wenzel",
     "section": "Education",
     "text": "Education\n University of Toulouse | Toulouse, France  PhD in Laboratory Astrophysics | June 2017 - July 2020  \n University of Münster | Münster, Germany   MSc in Physics | Oct 2014 - Mar 2017  \n University of Münster | Münster, Germany  BSc in Physics | Oct 2010 - Sept 2014"
+  },
+  {
+    "objectID": "cv/index.html#large-scale-facilities",
+    "href": "cv/index.html#large-scale-facilities",
+    "title": "Short CV  Gabi Wenzel",
+    "section": "Large Scale Facilities",
+    "text": "Large Scale Facilities\n Green Bank Telescope | Green Bank, WV, USA   FELIX Free Electron Laser | Nijmegen, The Netherlands   Synchrotron SOLEIL | Gif-sur-Yvette, France   HPC OLYMPE CALMIP | Toulouse, France   HPC GALILEO CINECA | Bologna, Italy"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Gabi Wenzel",
+    "section": "",
+    "text": "Research Scientist Department of Chemistry | MIT  Center for Astrophysics | Harvard & Smithsonian\nHi, I’m Gabi, an experimental physicist navigating a life between the laboraotry and space. My interest is in laboratory astrophysics and astrochemistry working with molecules that are present in the interstellar medium, the space between the stars. While all molecules are beautiful, I have a favorite family called polycyclic aromatic hydrocarbons (PAHs). While I’m trying to understand their photophysics, relaxation channels, and pssible formation pathways, I am especially excited about contributing to the efforts of detecting PAHs in space!"
   },
   {
     "objectID": "python/index.html",
@@ -222,19 +103,5 @@
     "title": "Accordions",
     "section": "",
     "text": "&lt;h2 class=\"accordion-header\" id=\"headingOne\"&gt;\n  &lt;button class=\"accordion-button collapsed\" type=\"button\" data-bs-toggle=\"collapse\" data-bs-target=\"#collapseOne\" aria-expanded=\"false\" aria-controls=\"collapseOne\"&gt;\n    Accordion Item #1\n  &lt;/button&gt;\n&lt;/h2&gt;\n&lt;div id=\"collapseOne\" class=\"accordion-collapse collapse\" aria-labelledby=\"headingOne\" data-bs-parent=\"#accordionExample\" style=\"\"&gt;\n  &lt;div class=\"accordion-body\"&gt;\n    &lt;strong&gt;This is the first item's accordion body.&lt;/strong&gt; It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the &lt;code&gt;.accordion-body&lt;/code&gt;, though the transition does limit overflow.\n  &lt;/div&gt;\n&lt;/div&gt;\n\n\n&lt;h2 class=\"accordion-header\" id=\"headingTwo\"&gt;\n  &lt;button class=\"accordion-button collapsed\" type=\"button\" data-bs-toggle=\"collapse\" data-bs-target=\"#collapseTwo\" aria-expanded=\"false\" aria-controls=\"collapseTwo\"&gt;\n    Accordion Item #2\n  &lt;/button&gt;\n&lt;/h2&gt;\n&lt;div id=\"collapseTwo\" class=\"accordion-collapse collapse\" aria-labelledby=\"headingTwo\" data-bs-parent=\"#accordionExample\" style=\"\"&gt;\n  &lt;div class=\"accordion-body\"&gt;\n    &lt;strong&gt;This is the second item's accordion body.&lt;/strong&gt; It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the &lt;code&gt;.accordion-body&lt;/code&gt;, though the transition does limit overflow.\n  &lt;/div&gt;\n&lt;/div&gt;\n\n\n&lt;h2 class=\"accordion-header\" id=\"headingThree\"&gt;\n  &lt;button class=\"accordion-button collapsed\" type=\"button\" data-bs-toggle=\"collapse\" data-bs-target=\"#collapseThree\" aria-expanded=\"false\" aria-controls=\"collapseThree\"&gt;\n    Accordion Item #3\n  &lt;/button&gt;\n&lt;/h2&gt;\n&lt;div id=\"collapseThree\" class=\"accordion-collapse collapse\" aria-labelledby=\"headingThree\" data-bs-parent=\"#accordionExample\" style=\"\"&gt;\n  &lt;div class=\"accordion-body\"&gt;\n    &lt;strong&gt;This is the third item's accordion body.&lt;/strong&gt; It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the &lt;code&gt;.accordion-body&lt;/code&gt;, though the transition does limit overflow.\n  &lt;/div&gt;\n&lt;/div&gt;"
-  },
-  {
-    "objectID": "cv/index.html#research-experience",
-    "href": "cv/index.html#research-experience",
-    "title": "Short CV  Gabi Wenzel",
-    "section": "Research Experience",
-    "text": "Research Experience\n Green Bank Telescope | Green Bank, WV, USA   FELIX Free Electron Laser | Nijmegen, The Netherlands   Synchrotron SOLEIL | Gif-sur-Yvette, France   HPC OLYMPE CALMIP | Toulouse, France   HPC GALILEO CINECA | Bologna, Italy"
-  },
-  {
-    "objectID": "cv/index.html#large-scale-facilities",
-    "href": "cv/index.html#large-scale-facilities",
-    "title": "Short CV  Gabi Wenzel",
-    "section": "Large Scale Facilities",
-    "text": "Large Scale Facilities\n Green Bank Telescope | Green Bank, WV, USA   FELIX Free Electron Laser | Nijmegen, The Netherlands   Synchrotron SOLEIL | Gif-sur-Yvette, France   HPC OLYMPE CALMIP | Toulouse, France   HPC GALILEO CINECA | Bologna, Italy"
   }
 ]
