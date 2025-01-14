@@ -15,6 +15,12 @@ about:
           href: https://scholar.google.com/citations?user=7z3WAPsAAAAJ&hl=en&oi=ao
 ---
 
+## Online Profiles
+
+<a href="https://orcid.org/0000-0002-0332-2641"><span class="badge rounded-pill bg-primary">ORCID</span></a>
+<a href="https://www.researchgate.net/profile/Gabi-Wenzel"><span class="badge rounded-pill bg-primary">ResearchGate</span></a> 
+<a href="https://scholar.google.com/citations?user=7z3WAPsAAAAJ&hl=en&oi=ao"><span class="badge rounded-pill bg-primary">Google Scholar</span></a> 
+
 ## 2024
 
 <b>Wenzel, G.</b>; Speak, T. H.; Changala, P. B.; Willis, R. H. J.; Burkhardt, A. M.; Zhang, S.; Bergin, E. A.; Byrne, A. N.; Charnley, S. B.; Fried, Z. T. P.; Gupta, H.; Herbst, E.; Holdren, M. S.; Lipnicky, A.; Loomis, R. A.; Shingledecker, C. N.; Xue, C.; Remijan, A. J.; Wendlandt, A. E.; McCarthy, M. C.; Cooke, I. R.; McGuire, B. A. Detections of Interstellar Aromatic Nitriles 2-Cyanopyrene and 4-Cyanopyrene in TMC-1. Nat Astron 2024, 1–9.
