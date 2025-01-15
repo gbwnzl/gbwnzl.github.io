@@ -32,6 +32,6 @@ Hi, I'm Gabi, an experimental physicist navigating a life between the laboraotry
 
 :::
 
-<br><div style="text-align:center;margin-bottom:10px"><b><span style="color:#5362C4;">Recent News</span></div>
+<br><div style="text-align:center;margin-bottom:10px"><b><span style="color:#5362C4;">Recent News</b></span></div>
 
-:::{#listing-placing}
+<!-- :::{#listing-placing} -->

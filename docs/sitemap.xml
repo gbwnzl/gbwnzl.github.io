@@ -1,19 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://gbwnzl.github.io/index.html</loc>
-    <lastmod>2025-01-15T06:39:03.474Z</lastmod>
+    <loc>https://gbwnzl.github.io/cv/index.html</loc>
+    <lastmod>2025-01-15T02:12:11.704Z</lastmod>
   </url>
   <url>
     <loc>https://gbwnzl.github.io/news/index.html</loc>
     <lastmod>2025-01-15T06:19:19.396Z</lastmod>
   </url>
   <url>
-    <loc>https://gbwnzl.github.io/cv/index.html</loc>
-    <lastmod>2025-01-15T02:12:11.704Z</lastmod>
-  </url>
-  <url>
     <loc>https://gbwnzl.github.io/publications/index.html</loc>
     <lastmod>2025-01-15T00:23:48.500Z</lastmod>
+  </url>
+  <url>
+    <loc>https://gbwnzl.github.io/python/index.html</loc>
+    <lastmod>2025-01-14T23:14:00.158Z</lastmod>
+  </url>
+  <url>
+    <loc>https://gbwnzl.github.io/index.html</loc>
+    <lastmod>2025-01-15T06:50:39.797Z</lastmod>
+  </url>
+  <url>
+    <loc>https://gbwnzl.github.io/accord.html</loc>
+    <lastmod>2025-01-14T23:14:00.054Z</lastmod>
   </url>
 </urlset>
