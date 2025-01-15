@@ -19,34 +19,38 @@ about:
 
 <b> Department of Chemistry | MIT</b><br>
 Cambridge, MA, USA <br>
-Research Scientist | Dec 2024 - present <br> <br>
+Research Scientist | 12/2024 - present <br> <br>
 
 <b> Center for Astrophysics | Harvard & Smithsonian</b><br>
 Cambridge, MA, USA <br>
-Visiting Scientist | Oct 2024 - present  <br> <br>
+Visiting Scientist | 10/2024 - present  <br> <br>
 
 <b> Department of Chemistry | MIT</b> <br>
 Cambridge, MA, USA <br>
-Postdoc | Oct 2022 - Nov 2024 <br> <br>
+Postdoc | 10/2022 - 11/2024 <br> <br>
 
 <b> Center for Interstellar Catalysis | Aarhus University </b><br>
 Aarhus, Denmark<br>
-Postdoc | Oct 2020 - Sept 2022 <br> <br>
+Postdoc | 10/2020 - 09/2022 <br> <br>
 
-<b> Institut de Recherche en Astrophysique et Planétologie (IRAP) | OMP </b><br>
+<b> Institut de Recherche en Astrophysique et Planétologie | OMP </b><br>
 Toulouse, France<br>
-Marie Curie Early-Stage Researcher | June 2017 - July 2020 <br> <br>
+Marie Curie ESR | 06/2017 - 07/2020 <br> 
+--- 
+
 
 ## Education
 
 <b> University of Toulouse | Toulouse, France  </b><br>
-PhD in Laboratory Astrophysics | June 2017 - July 2020 <br> <br>
+PhD in Laboratory Astrophysics | 06/2017 - 07/2020 <br> <br>
 
 <b> University of Münster | Münster, Germany </b> <br>
-MSc in Physics | Oct 2014 - Mar 2017 <br> <br>
+MSc in Physics | 10/2014 - 03/2017 <br> <br>
 
 <b> University of Münster | Münster, Germany  </b><br>
-BSc in Physics | Oct 2010 - Sept 2014 <br> <br>
+BSc in Physics | 10/2010 - 09/2014 <br> 
+---
+
 
 ## Large Scale Facilities
 
