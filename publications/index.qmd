@@ -2,8 +2,9 @@
 title: "Publications <br> Gabi Wenzel"
 image: "../profilepic.png"
 about:
-    image-width: "2in"
     template: trestles
+    image-width: "2in"
+    image-shape: round
     links:
         - icon: envelope
           href: mailto:gwenzel@mit.edu
