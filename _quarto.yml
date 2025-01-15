@@ -5,9 +5,10 @@ project:
 website:
   title: "gbwnzl"
   favicon: files/coronene_icon.png
-  google-analytics: "UA-XXXXXXXX"
+  google-analytics: "G-9VDJND9X2T"
   reader-mode: true
   twitter-card: true
+  site-url: https://gbwnzl.github.io/
   repo-url: https://github.com/gbwnzl/gbwnzl.github.io
   repo-actions: [edit, source, issue]
 
@@ -23,18 +24,21 @@ website:
         text: CV
       - href: publications/index.qmd
         text: Publications
+      - href: news/index.qmd
+        text: News
     right: 
-    - icon: github
-      href: https://github.com/gbwnzl
-      target: _blank
-      # - python/index.qmd
-      # - accord.qmd
-      
+      - icon: github
+        href: https://github.com/gbwnzl
+        target: _blank
+      # - icon: rss
+        # href: news/index.xml
+        # - python/index.qmd
+        # - accord.qmd
+
   page-footer:
     background: $dark
     left: © Gabi Wenzel
     right: This website is built with [{{< fa brands github title="GitHub" >}}](https://github.com/gbwnzl){target=_blank}, <a href="https://code.visualstudio.com/"><img src="VSCode_icon.svg" alt="VS Code" style="width:18px;height:18px;"></a>, and [Quarto](https://quarto.org/){target=_blank}.
-
 
 format:
   html:

@@ -1,0 +1,59 @@
+- title: More cyanopyrenes in TMC-1!
+  path: https://www.nature.com/articles/s41550-024-02410-9
+  image: https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41550-024-02410-9/MediaObjects/41550_2024_2410_Fig2_HTML.png?as=webp
+  description: >
+    We detected all three cyanopyrene isomers in the cold dark cloud TMC-1.
+    Their observed abundance ratio of ~2:1:2 reflects the available carbon 
+    sites for CN addition to pyrene. We discuss this further in our recent article appearing in 
+    Nature Astronomy today.
+  categories: [Astrochemistry, GBT]
+  date: 2024-11-05
+
+- title: Schadstoffe im fast leeren Raum
+  path: https://www.zeit.de/2024/46/kohlenstoff-weltall-schadstoffe-universum-astronomie?utm_campaign=ref&utm_source=twitter_zonaudev_int&wt_zmc=sm.int.zonaudev.twitter.ref.zeitde.redpost.link.sf&utm_content=zeitde_redpost+_link_sf&utm_referrer=twitter&utm_medium=sm
+  image: https://img.zeit.de/2024/47/schadstoffe-im-fast-leeren-raum-teaser/wide__1000x562__desktop__scale_2
+  description: >
+    The German newspaper <i>Die Zeit</i> featured our detection of interstellar 1-cyanopyrene. Read along for Sibylle Anderl's take on PAHs in space: Bestimmte kohlenstoffhaltige Moleküle vergiften die irdische Umwelt - und kommen in überraschend großen Mengen im All vor. Der kosmische Stoff hat eine wichtige Funktion.
+  categories: [ZEIT, German]
+  date: 2024-10-30  
+
+- title: Scientists discover molecules that store much of the carbon in space
+  path: https://news.mit.edu/2024/scientists-discover-molecules-store-carbon-in-space-1024
+  image: https://news.mit.edu/sites/default/files/styles/news_article__image_gallery/public/images/202410/MIT-Space-Compounds-01-PRESS_0.jpg?itok=BDg_4l3t
+  description: >
+    A team led by researchers at MIT has discovered that a distant interstellar cloud contains an abundance of pyrene, a type of large, carbon-containing molecule known as a polycyclic aromatic hydrocarbon (PAH). The discovery of pyrene in this far-off cloud, which is similar to the collection of dust and gas that eventually became our own solar system, suggests that pyrene may have been the source of much of the carbon in our solar system. That hypothesis is also supported by a recent finding that samples returned from the near-Earth asteroid Ryugu contain large quantities of pyrene. “One of the big questions in star and planet formation is: How much of the chemical inventory from that early molecular cloud is inherited and forms the base components of the solar system? What we’re looking at is the start and the end, and they’re showing the same thing. That’s pretty strong evidence that this material from the early molecular cloud finds its way into the ice, dust, and rocky bodies that make up our solar system,” says Brett McGuire, an assistant professor of chemistry at MIT.
+  categories: [Research, Technology]
+  date: 2024-10-24
+
+- title: CfA features 1-cyanopyrene detection
+  path: https://www.cfa.harvard.edu/news/astronomers-discover-new-building-blocks-complex-organic-matter
+  image: https://www.cfa.harvard.edu/sites/default/files/styles/max_650x650/public/2024-10/Cover%20Image%20V3.jpg?itok=MrmufE8b
+  description: >
+    The element carbon is a building block for life, both on Earth and potentially elsewhere in the vast reaches of space. There should be a lot of carbon in space, but surprisingly, it's not always easy to find. While it can be observed in many places, it doesn't add up to the volume astronomers would expect to see. The discovery of a new, complex molecule (1-cyanopyrene), challenges expectations about where the building blocks for carbon are found and how they evolve. Astronomers have long understood that certain carbon-rich stars are soot factories that release copious quantities of small molecular sheets of carbon into the interstellar medium. Scientists thought, however, that these types of carbon-rich molecules could neither survive the harsh conditions of interstellar space nor be re-formed there by combustion-like chemistry because the temperature is far too low.
+  categories: [Astrochemistry, GBT]
+  date: 2024-10-24
+
+- title: Postdoctoral Researcher Spotlight
+  path: https://chemistry.mit.edu/chemistry-news/postdoctoral-researcher-spotlight-gabi-wenzel/
+  image: https://chemistry.mit.edu/wp-content/uploads/2024/08/Mando-150x150.jpeg
+  description: >
+    Postdoctoral Researcher Dr. Gabi Wenzel describes her research and answers 20 random questions.
+    Originally from Germany, Gabi Wenzel arrived at MIT in October 22. She completed her Bachelors and Masters Degrees in Germany, majoring in Physics for both. Gabi earned her PhD in Laboratory Astrophysics in France, and completed her first postdoctoral position in Denmark, mostly during the COVID-19 pandemic. “During my time in grad school I also got to spend two months each in Italy, England, and the Netherlands for collaborations and internships,” said Gabi. “I love the interconnectivity in Europe but am so happy to finally be able to explore the American academic landscape, too!”  categories: [Science, Technology]
+  categories: [Research, Technology]
+  date: 2024-08-20
+
+- title: 2-methoxyethanol is our new space molecule!
+  path: https://chemistry.mit.edu/chemistry-news/researchers-detect-a-new-molecule-in-space/
+  image: https://chemistry.mit.edu/wp-content/uploads/2024/04/new-molecule-in-space-A1.png
+  description: >
+    New research from the group of MIT Professor Brett McGuire has revealed the presence of a previously unknown molecule in space. The team’s open-access paper, “Rotational Spectrum and First Interstellar Detection of 2-Methoxyethanol Using ALMA Observations of NGC 6334I,” appears in April 12 issue of The Astrophysical Journal Letters. Zachary T.P. Fried, a graduate student in the McGuire group and the lead author of the publication, worked to assemble a puzzle comprised of pieces collected from across the globe, extending beyond MIT to France, Florida, Virginia, and Copenhagen, to achieve this exciting discovery.
+  categories: [Astrochemistry, ALMA]
+  date: 2024-04-22
+
+- title: School of Science announces 2024 Infinite Expansion Awards
+  path: https://news.mit.edu/2024/school-science-infinite-expansion-awards-0304
+  image: https://mcguirelab.mit.edu/images/infinite_expansion.jpg
+  description: >
+    Nine postdocs and research scientists honored for contributions to the Institute. The MIT School of Science has announced nine postdocs and research scientists as recipients of the 2024 Infinite Expansion Award, which highlights extraordinary members of the MIT community. The following are the 2024 School of Science Infinite Expansion winners: Gabi Wenzel, a postdoc in the Department of Chemistry, was nominated by Assistant Professor Brett McGuire, who wrote, “In the one year since Gabi joined our team, she has become an indispensable leader, demonstrating exceptional skill, innovation, and dedication in our challenging research environment.”
+  categories: [Science, Technology]
+  date: 2024-03-04

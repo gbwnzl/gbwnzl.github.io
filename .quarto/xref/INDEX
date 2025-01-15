@@ -28,5 +28,14 @@
   },
   "accord.qmd": {
     "accord.html": "178e99b1"
+  },
+  "news/index.qmd": {
+    "index.html": "05ba6cd9"
+  },
+  "news/first/index.qmd": {
+    "index.html": "79ea7cbb"
+  },
+  "news/second/index.qmd": {
+    "index.html": "f5adf184"
   }
 }

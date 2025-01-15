@@ -70,26 +70,23 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-9VDJND9X2T"></script>
 
 <script type="text/javascript">
 
-(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-ga('create', 'UA-XXXXXXXX', 'auto');
-
-ga('send', {
-  hitType: 'pageview',
-  'anonymizeIp': true,
-});
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-9VDJND9X2T', { 'anonymize_ip': true});
 </script>
 
 
 <link rel="stylesheet" href="../styles.css">
 <meta name="twitter:title" content="Short CV  Gabi Wenzel – gbwnzl">
 <meta name="twitter:description" content="">
-<meta name="twitter:image" content="../profilepic.png">
+<meta name="twitter:image" content="https://gbwnzl.github.io/profilepic.png">
+<meta name="twitter:image-height" content="3088">
+<meta name="twitter:image-width" content="2316">
 <meta name="twitter:card" content="summary_large_image">
 </head>
 
@@ -121,6 +118,10 @@ ga('send', {
   <li class="nav-item">
     <a class="nav-link" href="../publications/index.html"> 
 <span class="menu-text">Publications</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../news/index.html"> 
+<span class="menu-text">News</span></a>
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
@@ -191,18 +192,18 @@ ga('send', {
 
 <section id="experience" class="level2">
 <h2 data-anchor-id="experience">Experience</h2>
-<p><b> Department of Chemistry | MIT</b><br> Cambridge, MA, USA <br> Research Scientist | 12/2024 - present <br> <br></p>
-<p><b> Center for Astrophysics | Harvard &amp; Smithsonian</b><br> Cambridge, MA, USA <br> Visiting Scientist | 10/2024 - present <br> <br></p>
-<p><b> Department of Chemistry | MIT</b> <br> Cambridge, MA, USA <br> Postdoc | 10/2022 - 11/2024 <br> <br></p>
-<p><b> Center for Interstellar Catalysis | Aarhus University </b><br> Aarhus, Denmark<br> Postdoc | 10/2020 - 09/2022 <br> <br></p>
-<p><b> Institut de Recherche en Astrophysique et Planétologie | OMP </b><br> Toulouse, France<br> Marie Curie ESR | 06/2017 - 07/2020 <br></p>
+<p><b> Department of Chemistry | MIT</b><br> Cambridge, MA, USA <br> Research Scientist | <time>12/2024</time> - present <br> <br></p>
+<p><b> Center for Astrophysics | Harvard &amp; Smithsonian</b><br> Cambridge, MA, USA <br> Visiting Scientist | <time>10/2024</time> - present <br> <br></p>
+<p><b> Department of Chemistry | MIT</b> <br> Cambridge, MA, USA <br> Postdoc | <time>10/2022</time> - <time>11/2024</time> <br> <br></p>
+<p><b> Center for Interstellar Catalysis | Aarhus University </b><br> Aarhus, Denmark<br> Postdoc | <time>10/2020</time> - <time>09/2022</time> <br> <br></p>
+<p><b> Institut de Recherche en Astrophysique et Planétologie | OMP </b><br> Toulouse, France<br> Marie Curie ESR | <time>06/2017</time> - <time>07/2020</time> <br></p>
 <hr>
 </section>
 <section id="education" class="level2">
 <h2 data-anchor-id="education">Education</h2>
-<p><b> University of Toulouse | Toulouse, France </b><br> PhD in Laboratory Astrophysics | 06/2017 - 07/2020 <br> <br></p>
-<p><b> University of Münster | Münster, Germany </b> <br> MSc in Physics | 10/2014 - 03/2017 <br> <br></p>
-<p><b> University of Münster | Münster, Germany </b><br> BSc in Physics | 10/2010 - 09/2014 <br></p>
+<p><b> University of Toulouse | Toulouse, France </b><br> PhD in Laboratory Astrophysics | <time>06/2017</time> - <time>07/2020</time> <br> <br></p>
+<p><b> University of Münster | Münster, Germany </b> <br> MSc in Physics | <time>10/2014</time> - <time>03/2017</time> <br> <br></p>
+<p><b> University of Münster | Münster, Germany </b><br> BSc in Physics | <time>10/2010</time> - <time>09/2014</time> <br></p>
 <hr>
 </section>
 <section id="large-scale-facilities" class="level2">
@@ -441,7 +442,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp('/' + window.location.host + '/');
+      var filterRegex = new RegExp("https:\/\/gbwnzl\.github\.io\/");
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }

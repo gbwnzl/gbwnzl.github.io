@@ -1,0 +1,15 @@
+---
+title: "News"
+listing:
+  contents: news.yaml
+  # feed: 
+  #   items: 3
+  type: grid
+  categories: true
+  sort: 
+    - "date desc"
+    # - "title desc"
+  sort-ui: [title, date]
+  grid-columns: 3
+  max-description-length: 270
+---

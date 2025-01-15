@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Gabi Wenzel – gbwnzl</title>
+<title>News – gbwnzl</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,28 +23,29 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<link href="./files/coronene_icon.png" rel="icon" type="image/png">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-549806ee2085284f45b00abea8c6df48.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-8ea72dc5fed832574809a9c94082fbbb.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-3ccf01b98b9981138a64bf90a3414e27.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-37e4a1b71ce010cf89f5f3b48ca3a084.min.css" rel="prefetch" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="site_libs/quarto-contrib/fontawesome6-1.2.0/all.min.css" rel="stylesheet">
-<link href="site_libs/quarto-contrib/fontawesome6-1.2.0/latex-fontsize.css" rel="stylesheet">
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<link href="../files/coronene_icon.png" rel="icon" type="image/png">
+<script src="../site_libs/quarto-listing/list.min.js"></script>
+<script src="../site_libs/quarto-listing/quarto-listing.js"></script>
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-549806ee2085284f45b00abea8c6df48.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark-8ea72dc5fed832574809a9c94082fbbb.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-3ccf01b98b9981138a64bf90a3414e27.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark-37e4a1b71ce010cf89f5f3b48ca3a084.min.css" rel="prefetch" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../site_libs/quarto-contrib/fontawesome6-1.2.0/all.min.css" rel="stylesheet">
+<link href="../site_libs/quarto-contrib/fontawesome6-1.2.0/latex-fontsize.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -75,20 +76,20 @@ ul.task-list li input[type="checkbox"] {
 <script>
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing-placing .list');
+    const listingTargetEl = window.document.querySelector('#listing-listing .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
       return; 
     }
 
     const options = {
-      valueNames: ['listing-title','listing-image','listing-description','listing-categories','listing-date',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-title','listing-image','listing-description','listing-categories','listing-date',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] }],
       
       searchColumns: ["listing-title","listing-image","listing-description","listing-categories","listing-date"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing-placing'] = new List('listing-listing-placing', options);
+    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -141,23 +142,20 @@ window.Quarto = {
 };
 </script>
 
-<link rel="stylesheet" href="styles.css">
-<meta name="twitter:title" content="Gabi Wenzel – gbwnzl">
-<meta name="twitter:image" content="https://gbwnzl.github.io/profilepic.png">
-<meta name="twitter:image-height" content="3088">
-<meta name="twitter:image-width" content="2316">
-<meta name="twitter:card" content="summary_large_image">
+<link rel="stylesheet" href="../styles.css">
+<meta name="twitter:title" content="News – gbwnzl">
+<meta name="twitter:card" content="summary">
 </head>
 
-<body class="nav-fixed fullcontent">
+<body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a href="./index.html" class="navbar-brand navbar-brand-logo">
-    <img src="./files/coronene_icon.png" alt="Coronene" class="navbar-logo">
+    <a href="../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../files/coronene_icon.png" alt="Coronene" class="navbar-logo">
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
@@ -167,19 +165,19 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" aria-current="page"> 
+    <a class="nav-link" href="../index.html"> 
 <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./cv/index.html"> 
+    <a class="nav-link" href="../cv/index.html"> 
 <span class="menu-text">CV</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./publications/index.html"> 
+    <a class="nav-link" href="../publications/index.html"> 
 <span class="menu-text">Publications</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./news/index.html"> 
+    <a class="nav-link active" href="../news/index.html" aria-current="page"> 
 <span class="menu-text">News</span></a>
   </li>  
 </ul>
@@ -206,54 +204,54 @@ window.Quarto = {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(7)</span></div><div class="category" data-category="QUxNQQ==">ALMA <span class="quarto-category-count">(1)</span></div><div class="category" data-category="QXN0cm9jaGVtaXN0cnk=">Astrochemistry <span class="quarto-category-count">(3)</span></div><div class="category" data-category="R0JU">GBT <span class="quarto-category-count">(2)</span></div><div class="category" data-category="R2VybWFu">German <span class="quarto-category-count">(1)</span></div><div class="category" data-category="UmVzZWFyY2g=">Research <span class="quarto-category-count">(2)</span></div><div class="category" data-category="U2NpZW5jZQ==">Science <span class="quarto-category-count">(1)</span></div><div class="category" data-category="VGVjaG5vbG9neQ==">Technology <span class="quarto-category-count">(3)</span></div><div class="category" data-category="WkVJVA==">ZEIT <span class="quarto-category-count">(1)</span></div></div></div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-
-
-
-<div class="quarto-about-jolla">
-  <img src="./profilepic.png" class="about-image
-  round " style="height: 15em; width: 15em;">
- <header id="title-block-header" class="quarto-title-block default">
+<header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Gabi Wenzel</h1>
-</div>
-<div class="quarto-title-meta">
-  </div>
-</header><div id="hero-heading">
-<div style="text-align:center">
-<p><b><span style="color:#5362C4;">Research Scientist</span><br> Department of Chemistry | MIT <br> Center for Astrophysics | Harvard &amp; Smithsonian</b></p>
-Hi, I’m Gabi, an experimental physicist navigating a life between the laboraotry and space. My interest is in laboratory astrophysics and astrochemistry working with molecules that are present in the interstellar medium, the space between the stars. Even though all molecules are beautiful, I have a favorite family called polycyclic aromatic hydrocarbons (PAHs). While I’m trying to understand their photophysics, relaxation channels, and possible formation pathways, I am especially excited about contributing to the efforts of detecting PAHs in space!
-</div>
-</div> 
-  <hr class="about-sep">
-   <div class="about-links">
-  <a href="mailto:gwenzel@mit.edu" class="about-link" rel="" target="">
-    <i class="bi bi-envelope"></i>
-     <span class="about-link-text"></span>
-  </a>
-  <a href="https://www.linkedin.com/in/gabiwenzel/" class="about-link" rel="" target="">
-    <i class="bi bi-linkedin"></i>
-     <span class="about-link-text"></span>
-  </a>
-  <a href="https://github.com/gbwnzl" class="about-link" rel="" target="">
-    <i class="bi bi-github"></i>
-     <span class="about-link-text"></span>
-  </a>
-  <a href="https://scholar.google.com/citations?user=7z3WAPsAAAAJ&amp;hl=en&amp;oi=ao" class="about-link" rel="" target="">
-    <i class="bi bi-google"></i>
-     <span class="about-link-text"></span>
-  </a>
-</div>
+<h1 class="title">News</h1>
 </div>
 
-<br>
-<div style="text-align:center;margin-bottom:10px">
-<b><span style="color:#5362C4;">Recent News</span>
-</b></div><b>
-<div id="listing-listing-placing" class="quarto-listing quarto-listing-container-grid">
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+
+
+
+
+<div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
+<div class="listing-actions-group">
+   <div class="input-group input-group-sm quarto-listing-sort">
+     <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
+     <select id="listing-listing-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-listing'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
+       <option value="" disabled="" selected="" hidden="">Order By</option>
+       <option value="index" data-direction="asc">Default</option>
+         <option value="listing-title" data-direction="asc">
+          Title
+        </option>
+         <option value="listing-date-sort" data-direction="asc">
+          Date - Oldest
+        </option>
+         <option value="listing-date-sort" data-direction="desc">
+          Date - Newest
+        </option>
+     </select>
+  </div>
+</div>
 <div class="list grid quarto-listing-cols-3">
 <div class="g-col-1" data-index="0" data-categories="QXN0cm9jaGVtaXN0cnklMkNHQlQ=" data-listing-date-sort="1730782800000">
 <a href="https://www.nature.com/articles/s41550-024-02410-9" class="quarto-grid-link">
@@ -274,7 +272,7 @@ GBT
 </div>
 </div>
 <div class="card-text listing-description">
-We detected all three cyanopyrene isomers in the cold dark cloud TMC-1. Their observed abundance ratio of ~2:1:2 reflects the available carbon sites for CN addition to…
+<p>We detected all three cyanopyrene isomers in the cold dark cloud TMC-1. Their observed abundance ratio of ~2:1:2 reflects the available carbon sites for CN addition to pyrene. We discuss this further in our recent article appearing in Nature Astronomy today.</p>
 </div>
 <div class="card-attribution card-text-small end">
 <div class="listing-date">
@@ -304,7 +302,7 @@ German
 </div>
 </div>
 <div class="card-text listing-description">
-The German newspaper <i>Die Zeit</i> featured our detection of interstellar 1-cyanopyrene. Read along for Sibylle Anderl’s take on PAHs in space: Bestimmte…
+The German newspaper <i>Die Zeit</i> featured our detection of interstellar 1-cyanopyrene. Read along for Sibylle Anderl’s take on PAHs in space: Bestimmte kohlenstoffhaltige Moleküle vergiften die irdische Umwelt - und kommen in überraschend großen Mengen im All vor.…
 </div>
 <div class="card-attribution card-text-small end">
 <div class="listing-date">
@@ -334,7 +332,7 @@ Technology
 </div>
 </div>
 <div class="card-text listing-description">
-A team led by researchers at MIT has discovered that a distant interstellar cloud contains an abundance of pyrene, a type of large, carbon-containing molecule known as a…
+A team led by researchers at MIT has discovered that a distant interstellar cloud contains an abundance of pyrene, a type of large, carbon-containing molecule known as a polycyclic aromatic hydrocarbon (PAH). The discovery of pyrene in this far-off cloud, which is…
 </div>
 <div class="card-attribution card-text-small end">
 <div class="listing-date">
@@ -345,13 +343,131 @@ Oct 24, 2024
 </div>
 </a>
 </div>
+<div class="g-col-1" data-index="3" data-categories="QXN0cm9jaGVtaXN0cnklMkNHQlQ=" data-listing-date-sort="1729742400000">
+<a href="https://www.cfa.harvard.edu/news/astronomers-discover-new-building-blocks-complex-organic-matter" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="https://www.cfa.harvard.edu/sites/default/files/styles/max_650x650/public/2024-10/Cover%20Image%20V3.jpg?itok=MrmufE8b" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+CfA features 1-cyanopyrene detection
+</h5>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('QXN0cm9jaGVtaXN0cnk='); return false;">
+Astrochemistry
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('R0JU'); return false;">
+GBT
+</div>
+</div>
+<div class="card-text listing-description">
+The element carbon is a building block for life, both on Earth and potentially elsewhere in the vast reaches of space. There should be a lot of carbon in space, but surprisingly, it’s not always easy to find. While it can be observed in many places, it doesn’t add up…
+</div>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+Oct 24, 2024
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="4" data-categories="UmVzZWFyY2glMkNUZWNobm9sb2d5" data-listing-date-sort="1724126400000">
+<a href="https://chemistry.mit.edu/chemistry-news/postdoctoral-researcher-spotlight-gabi-wenzel/" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="https://chemistry.mit.edu/wp-content/uploads/2024/08/Mando-150x150.jpeg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Postdoctoral Researcher Spotlight
+</h5>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('UmVzZWFyY2g='); return false;">
+Research
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('VGVjaG5vbG9neQ=='); return false;">
+Technology
+</div>
+</div>
+<div class="card-text listing-description">
+Postdoctoral Researcher Dr.&nbsp;Gabi Wenzel describes her research and answers 20 random questions. Originally from Germany, Gabi Wenzel arrived at MIT in October 22. She completed her Bachelors and Masters Degrees in Germany, majoring in Physics for both. Gabi earned her…
+</div>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+Aug 20, 2024
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="5" data-categories="QXN0cm9jaGVtaXN0cnklMkNBTE1B" data-listing-date-sort="1713758400000">
+<a href="https://chemistry.mit.edu/chemistry-news/researchers-detect-a-new-molecule-in-space/" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="https://chemistry.mit.edu/wp-content/uploads/2024/04/new-molecule-in-space-A1.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+2-methoxyethanol is our new space molecule!
+</h5>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('QXN0cm9jaGVtaXN0cnk='); return false;">
+Astrochemistry
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('QUxNQQ=='); return false;">
+ALMA
+</div>
+</div>
+<div class="card-text listing-description">
+New research from the group of MIT Professor Brett McGuire has revealed the presence of a previously unknown molecule in space. The team’s open-access paper, “Rotational Spectrum and First Interstellar Detection of 2-Methoxyethanol Using ALMA Observations of NGC…
+</div>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+Apr 22, 2024
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="6" data-categories="U2NpZW5jZSUyQ1RlY2hub2xvZ3k=" data-listing-date-sort="1709528400000">
+<a href="https://news.mit.edu/2024/school-science-infinite-expansion-awards-0304" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="https://mcguirelab.mit.edu/images/infinite_expansion.jpg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+School of Science announces 2024 Infinite Expansion Awards
+</h5>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('U2NpZW5jZQ=='); return false;">
+Science
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('VGVjaG5vbG9neQ=='); return false;">
+Technology
+</div>
+</div>
+<div class="card-text listing-description">
+Nine postdocs and research scientists honored for contributions to the Institute. The MIT School of Science has announced nine postdocs and research scientists as recipients of the 2024 Infinite Expansion Award, which highlights extraordinary members of the MIT…
+</div>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+Mar 4, 2024
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
 </div>
 <div class="listing-no-matching d-none">
 No matching items
 </div>
-</div>
-
-</b></main><b> <!-- /main -->
+</div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -516,6 +632,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   } else {
     toggleColorMode(false);
   }
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
   const isCodeAnnotation = (el) => {
     for (const clz of el.classList) {
       if (clz.startsWith('code-annotation-')) {                     
@@ -906,22 +1029,22 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
 });
 </script>
-</b></div><b> <!-- /content -->
+</div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">
-      <div class="footer-contents">© Gabi Wenzel</div>  
-    </div>   
+<p>© Gabi Wenzel</p>
+</div>   
     <div class="nav-footer-center">
       &nbsp;
-    <div class="toc-actions"><ul><li><a href="https://github.com/gbwnzl/gbwnzl.github.io/edit/main/index.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/gbwnzl/gbwnzl.github.io/blob/main/index.qmd" class="toc-action"><i class="bi empty"></i>View source</a></li><li><a href="https://github.com/gbwnzl/gbwnzl.github.io/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
+    <div class="toc-actions"><ul><li><a href="https://github.com/gbwnzl/gbwnzl.github.io/edit/main/news/index.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/gbwnzl/gbwnzl.github.io/blob/main/news/index.qmd" class="toc-action"><i class="bi empty"></i>View source</a></li><li><a href="https://github.com/gbwnzl/gbwnzl.github.io/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
     <div class="nav-footer-right">
-      <div class="footer-contents">This website is built with [](https://github.com/gbwnzl){target=_blank}, <a href="https://code.visualstudio.com/"><img src="VSCode_icon.svg" alt="VS Code" style="width:18px;height:18px;"></a>, and [Quarto](https://quarto.org/){target=_blank}.</div>  
-    </div>
+<p>This website is built with <a href="https://github.com/gbwnzl" target="_blank"><i class="fa-brands fa-github" title="GitHub" aria-label="github"></i></a>, <a href="https://code.visualstudio.com/"><img src="VSCode_icon.svg" alt="VS Code" style="width:18px;height:18px;"></a>, and <a href="https://quarto.org/" target="_blank">Quarto</a>.</p>
+</div>
   </div>
 </footer>
 
 
 
 
-</b></body></html>
+</body></html>

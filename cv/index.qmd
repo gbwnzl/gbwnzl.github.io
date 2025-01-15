@@ -20,36 +20,36 @@ about:
 
 <b> Department of Chemistry | MIT</b><br>
 Cambridge, MA, USA <br>
-Research Scientist | 12/2024 - present <br> <br>
+Research Scientist | <time>12/2024</time> - present <br> <br>
 
 <b> Center for Astrophysics | Harvard & Smithsonian</b><br>
 Cambridge, MA, USA <br>
-Visiting Scientist | 10/2024 - present  <br> <br>
+Visiting Scientist | <time>10/2024</time> - present  <br> <br>
 
 <b> Department of Chemistry | MIT</b> <br>
 Cambridge, MA, USA <br>
-Postdoc | 10/2022 - 11/2024 <br> <br>
+Postdoc | <time>10/2022</time> - <time>11/2024</time> <br> <br>
 
 <b> Center for Interstellar Catalysis | Aarhus University </b><br>
 Aarhus, Denmark<br>
-Postdoc | 10/2020 - 09/2022 <br> <br>
+Postdoc | <time>10/2020</time> - <time>09/2022</time> <br> <br>
 
 <b> Institut de Recherche en Astrophysique et Planétologie | OMP </b><br>
 Toulouse, France<br>
-Marie Curie ESR | 06/2017 - 07/2020 <br> 
+Marie Curie ESR | <time>06/2017</time> - <time>07/2020</time> <br> 
 --- 
 
 
 ## Education
 
 <b> University of Toulouse | Toulouse, France  </b><br>
-PhD in Laboratory Astrophysics | 06/2017 - 07/2020 <br> <br>
+PhD in Laboratory Astrophysics | <time>06/2017</time> - <time>07/2020</time> <br> <br>
 
 <b> University of Münster | Münster, Germany </b> <br>
-MSc in Physics | 10/2014 - 03/2017 <br> <br>
+MSc in Physics | <time>10/2014</time> - <time>03/2017</time> <br> <br>
 
 <b> University of Münster | Münster, Germany  </b><br>
-BSc in Physics | 10/2010 - 09/2014 <br> 
+BSc in Physics | <time>10/2010</time> - <time>09/2014</time> <br> 
 ---
 
 
