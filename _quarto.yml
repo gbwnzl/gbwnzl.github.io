@@ -7,7 +7,8 @@ website:
   favicon: files/coronene_icon.png
   google-analytics: "G-9VDJND9X2T"
   reader-mode: true
-  twitter-card: true
+  twitter-card:
+    site: "@gbwnzl"
   site-url: https://gbwnzl.github.io/
   repo-url: https://github.com/gbwnzl/gbwnzl.github.io
   repo-actions: [edit, source, issue]

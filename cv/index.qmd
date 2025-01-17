@@ -1,6 +1,6 @@
 ---
 title: "Short CV <br> Gabi Wenzel"
-image: "../profilepic.png"
+image: "../Untitled-modified.png"
 about:
     template: trestles
     image-width: "2in"
@@ -53,7 +53,7 @@ BSc in Physics | <time>10/2010</time> - <time>09/2014</time> <br>
 ---
 
 
-## Large Scale Facilities
+## User Facilities
 
 <b> Green Bank Telescope</b> | Green Bank, WV, USA <br>
 <b> FELIX Free Electron Laser</b> | Nijmegen, The Netherlands <br>

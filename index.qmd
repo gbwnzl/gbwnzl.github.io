@@ -1,9 +1,10 @@
 ---
 title: "Gabi Wenzel"
-image: "./profilepic.png"
 about:
   id: hero-heading
   template: jolla
+  image: "./Untitled-modified.png"
+  image-shape: round
   links:
     - icon: envelope
       href: mailto:gwenzel@mit.edu

@@ -1,6 +1,6 @@
 ---
 title: "Publications <br> Gabi Wenzel"
-image: "../profilepic.png"
+image: "../Untitled-modified.png"
 about:
     template: trestles
     image-width: "2in"
