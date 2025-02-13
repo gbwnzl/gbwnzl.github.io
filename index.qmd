@@ -26,8 +26,9 @@ listing:
 :::{#hero-heading}
 
 <div style="text-align:center"><b><span style="color:#5362C4;">Research Scientist</span><br>
-Department of Chemistry | MIT <br>
-Center for Astrophysics | Harvard & Smithsonian</b>
+<a href="https://sites.mit.edu/gbwnzl/" class="more">Department of Chemistry | MIT </a><br>
+<a href="https://www.cfa.harvard.edu/people/gabi-wenzel" class="more">Center for Astrophysics | Harvard & Smithsonian</a></b>
+
 
 Hi! I'm Gabi, an experimental physicist navigating life between the laboratory and space. My interest is in laboratory astrophysics and astrochemistry, meaning I work with molecules that are present in the interstellar medium, the space between the stars. Even though all molecules are beautiful, I have a favorite family called polycyclic aromatic hydrocarbons (PAHs). While I'm trying to understand their photophysics, relaxation channels, and possible formation pathways, I am especially excited about contributing to the efforts of detecting PAHs in space using high-resolution rotational spectroscopy in the lab and radio telescopes such as the Green Bank Telescope in West Virginia!</div>
 

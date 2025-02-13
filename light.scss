@@ -19,3 +19,24 @@ $primary: $cyano !default;
 /*-- scss:rules --*/
 .dark-mode { display: none; }
 .light-mode { display: block; }
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+a.more {
+    color: $body-color;
+    font-weight: bold;
+}

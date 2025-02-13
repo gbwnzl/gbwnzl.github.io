@@ -3,8 +3,9 @@ project:
   output-dir: docs
 
 website:
-  title: "gbwnzl"
+  title: "MIT & CfA | Laboratory Astrophysics & Astrochemistry"
   favicon: files/coronene_icon.png
+  description: "Gabi Wenzel is a laboratory astrophysicist at MIT & CfA | Harvard & Smithsonian exploring interstellar PAHs, their role in astrochemistry, and bridging the gap between the lab and outer space."
   google-analytics: "G-9VDJND9X2T"
   reader-mode: true
   twitter-card:
