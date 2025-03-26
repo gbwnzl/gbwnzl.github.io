@@ -16,15 +16,18 @@ about:
           href: https://scholar.google.com/citations?user=7z3WAPsAAAAJ&hl=en&oi=ao
 ---
 
-## Experience
+## Currently
 
 <b> Department of Chemistry | MIT</b><br>
 Cambridge, MA, USA <br>
-Research Scientist | <time>12/2024</time> - present <br> <br>
+<a href="https://sites.mit.edu/gbwnzl/" class="cvpage">Research Scientist</a> | <time>12/2024</time> - present <br> <br>
 
 <b> Center for Astrophysics | Harvard & Smithsonian</b><br>
 Cambridge, MA, USA <br>
-Visiting Scientist | <time>10/2024</time> - present  <br> <br>
+<a href="https://www.cfa.harvard.edu/people/gabi-wenzel" class="cvpage">Visiting Scientist</a> | <time>10/2024</time> - present  <br> <br>
+---
+
+## Previously
 
 <b> Department of Chemistry | MIT</b> <br>
 Cambridge, MA, USA <br>
