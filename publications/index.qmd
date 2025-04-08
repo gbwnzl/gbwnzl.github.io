@@ -24,8 +24,10 @@ about:
 
 ## 2025
 
-Remijan, A. J.; Changala, P. B.; Xue, C.; Yuan, E. Q. H.; Duffy, M.; Scolati, H. N.; Shingledecker, C. N.; Speak, T. H.; Cooke, I. R.; Loomis, R.; Burkhardt, A. M.; Fried, Z. T. P.; <b>Wenzel, G.</b>; Lipnicky, A.; McCarthy, M. C.; McGuire, B. A. The Missing Link of Sulfur Chemistry in TMC-1: The Detection of c-C3H2S from the GOTHAM Survey. Accepted for publication in ApJ. arXiv January 10, 2025.
-<a href="https://doi.org/10.48550/arXiv.2501.06343"><span class="badge rounded-pill bg-primary">DOI</span></a>
+<b>Wenzel, G.</b>; Gong, S.; Xue, C.; Changala, P. B.; Holdren, M. S.; Speak, T. H.; Stewart, D. A.; Fried, Z. T. P.; Willis, R. H. J.; Bergin, E. A.; Burkhardt, A. M.; Byrne, A. N.; Charnley, S. B.; Lipnicky, A.; Loomis, R. A.; Shingledecker, C. N.; Cooke, I. R.; Remijan, A. J.; McCarthy, M. C.; Wendlandt, A. E.; McGuire, B. A. Discovery of the 7-ring PAH Cyanocoronene (C24H11CN) in GOTHAM Observations of TMC-1. Accepted for publication in The Astrophysical Journal Letters. Available on arXiv.org. <a href="https://doi.org/10.3847/2041-8213/adc911"><span class="badge rounded-pill bg-primary">DOI</span></a>
+
+Remijan, A. J.; Changala, P. B.; Xue, C.; Yuan, E. Q. H.; Duffy, M.; Scolati, H. N.; Shingledecker, C. N.; Speak, T. H.; Cooke, I. R.; Loomis, R.; Burkhardt, A. M.; Fried, Z. T. P.; <b>Wenzel, G.</b>; Lipnicky, A.; McCarthy, M. C.; McGuire, B. A. The Missing Link of Sulfur Chemistry in TMC-1: The Detection of c-C3H2S from the GOTHAM Survey. The Astrophysical Journal 2025, 982 (2), 191.
+<a href="https://doi.org/10.3847/1538-4357/adb84c"><span class="badge rounded-pill bg-primary">DOI</span></a>
 
 <b>Wenzel, G.</b>; Speak, T. H.; Changala, P. B.; Willis, R. H. J.; Burkhardt, A. M.; Zhang, S.; Bergin, E. A.; Byrne, A. N.; Charnley, S. B.; Fried, Z. T. P.; Gupta, H.; Herbst, E.; Holdren, M. S.; Lipnicky, A.; Loomis, R. A.; Shingledecker, C. N.; Xue, C.; Remijan, A. J.; Wendlandt, A. E.; McCarthy, M. C.; Cooke, I. R.; McGuire, B. A. Detections of Interstellar Aromatic Nitriles 2-Cyanopyrene and 4-Cyanopyrene in TMC-1. Nature Astronomy 2025, 9 (2), 262–270. <a href="https://doi.org/10.1038/s41550-024-02410-9"><span class="badge rounded-pill bg-primary">DOI</span></a>
 
