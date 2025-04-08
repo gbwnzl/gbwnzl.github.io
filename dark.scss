@@ -8,13 +8,14 @@ $blueviolet: #5362C4;
 $cyan: #9BDCEF;
 $cyano: #41A4DC;
 $dark: #222222;
+$arxiv: #B31B1B;
 $body-bg: #0F1419 !default;
 $body-color: #F8F8F3 !default;
 $link-color: #5362C4 !default;
 $selection-bg: #B4AAE9 !default;
 $bg-primary: $cyan !default;
 $primary: $cyan !default;
-
+$bg-danger: $arxiv !default;
 
 /*-- scss:rules --*/
 .dark-mode { display: block; }
