@@ -1,0 +1,85 @@
+import numpy as np
+import matplotlib.pyplot as plt
+
+# Define the pressure range (in Torr)
+pressure = np.logspace(-4, 3, 100)
+
+# Define the voltage range (from 1V to 8V, increasing 1V per decade)
+voltage = np.linspace(1, 8, len(pressure))
+
+# Create the plot
+# plt.figure(figsize=(8, 6))
+# plt.plot(pressure, voltage, label='Pressure vs Voltage', color='b')
+
+# # Set the scale of the axes
+# plt.xscale('log')  # Logarithmic scale for pressure
+# plt.yscale('linear')  # Linear scale for voltage
+
+# # Labels and title
+# plt.xlabel('Pressure (Torr)')
+# plt.ylabel('Voltage (V)')
+# plt.title('Log-Linear Relation between Pressure and Output Voltage')
+
+# # Show grid
+# plt.grid(True, which='both', linestyle='--', linewidth=0.5)
+
+# # Show legend
+# plt.legend()
+
+# # Display the plot
+# plt.show()
+
+
+import numpy as np
+import matplotlib.pyplot as plt
+from scipy.optimize import curve_fit
+
+# Define the log-linear model: V = A * log10(P) + B
+def log_linear_model(P, A, B):
+    return A * np.log10(P) + B
+
+# Example data (replace with your own data)
+# Pressure data (in Torr)
+pressure_data = np.logspace(-4, 3, 100)  # Example pressure data
+
+# Voltage data (in Volts), this should be your actual data
+# voltage_data = 1 + np.log10(pressure_data)  # Simulated voltage data for illustration
+
+voltage_data = np.linspace(0.5, 4, len(pressure))
+
+
+# Fit the log-linear model to the data
+params, covariance = curve_fit(log_linear_model, pressure_data, voltage_data, p0=[1, 1])
+
+# Extract the fitted parameters A and B
+A_fitted, B_fitted = params
+
+# Print the fitted parameters
+print(f"Fitted A: {A_fitted}")
+print(f"Fitted B: {B_fitted}")
+
+# Generate fitted voltage values using the fitted parameters
+fitted_voltage = log_linear_model(pressure_data, A_fitted, B_fitted)
+
+# Create the plot
+plt.figure(figsize=(8, 6))
+plt.plot(pressure_data, voltage_data, 'bo', label='Data')  # Plot the actual data (blue dots)
+plt.plot(pressure_data, fitted_voltage, 'r-', label=f'Fitted Curve: V = {A_fitted:.2f} * log10(P) + {B_fitted:.2f}')  # Plot the fitted curve (red line)
+
+# Set the scale of the axes
+plt.xscale('log')  # Logarithmic scale for pressure
+plt.yscale('linear')  # Linear scale for voltage
+
+# Labels and title
+plt.xlabel('Pressure (Torr)')
+plt.ylabel('Voltage (V)')
+plt.title('Log-Linear Fitting of Pressure vs Voltage')
+
+# Show grid
+plt.grid(True, which='both', linestyle='--', linewidth=0.5)
+
+# Show legend
+plt.legend()
+
+# Display the plot
+plt.show()

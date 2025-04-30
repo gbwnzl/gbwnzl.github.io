@@ -1,3 +1,11 @@
+- title: Interstellar cyanocoronene detected
+  path: https://iopscience.iop.org/article/10.3847/2041-8213/adc911
+  image: https://content.cld.iop.org/journals/2041-8205/984/1/L36/revision1/apjladc911f1_lr.jpg
+  description: >
+    We detected interstellar cyanocoronene in TMC-1. This is the first unambigous detection of a coronene derivative in space, and suggests that larger PAHs may be more abundant than previously thought.
+  categories: [Astrochemistry, GBT]
+  date: 2025-04-30
+
 - title: More cyanopyrenes in TMC-1!
   path: https://www.nature.com/articles/s41550-024-02410-9
   image: https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41550-024-02410-9/MediaObjects/41550_2024_2410_Fig2_HTML.png?as=webp
@@ -11,7 +19,7 @@
 
 - title: Schadstoffe im fast leeren Raum
   path: https://www.zeit.de/2024/46/kohlenstoff-weltall-schadstoffe-universum-astronomie?utm_campaign=ref&utm_source=twitter_zonaudev_int&wt_zmc=sm.int.zonaudev.twitter.ref.zeitde.redpost.link.sf&utm_content=zeitde_redpost+_link_sf&utm_referrer=twitter&utm_medium=sm
-  image: https://img.zeit.de/2024/47/schadstoffe-im-fast-leeren-raum-teaser/wide__1000x562__desktop__scale_2
+  image: https://images.newscientist.com/wp-content/uploads/2024/10/16145111/SEI_225579035.jpg?width=1674 
   description: >
     The German newspaper <i>Die Zeit</i> featured our detection of interstellar 1-cyanopyrene. Read along for Sibylle Anderl's take on PAHs in space: Bestimmte kohlenstoffhaltige Moleküle vergiften die irdische Umwelt - und kommen in überraschend großen Mengen im All vor. Der kosmische Stoff hat eine wichtige Funktion.
   categories: [Zeit, German]
