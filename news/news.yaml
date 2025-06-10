@@ -1,10 +1,17 @@
-- title: Interstellar cyanocoronene detected
-  path: https://iopscience.iop.org/article/10.3847/2041-8213/adc911
-  image: https://content.cld.iop.org/journals/2041-8205/984/1/L36/revision1/apjladc911f1_lr.jpg
+- title: AAS 246 Press Conference. From Molecules to Molecular Clouds. Discoveries in the Milky Way
+  path: https://www.youtube.com/watch?v=gJjSZu9ob8Q
+  image: https://public.nrao.edu/wp-content/uploads/2025/06/Wenzel_SPR2025-cyanocoronene-1170x600.jpg
   description: >
-    We detected interstellar cyanocoronene in TMC-1. This is the first unambigous detection of a coronene derivative in space, and suggests that larger PAHs may be more abundant than previously thought.
+    Our discovery of the seven-ring cyanocoronene in the Taurus molecular cloud was featured during the 246th Meeting of the American Astronomical Society held in Anchorage, Alaska. Click here to watch the video!
   categories: [Astrochemistry, GBT]
-  date: 2025-04-30
+  date: 2025-06-09
+
+- title: Cosmic Chemistry Breakthrough, Largest Aromatic Molecule Found in Deep Space
+  path: https://public.nrao.edu/news/cosmic-chemistry-breakthrough-largest-aromatic-molecule-found-in-deep-space/
+  image: https://public.nrao.edu/wp-content/uploads/2025/06/Wenzel_SPR2025-cyanocoronene-1170x600.jpg
+  description: >
+    A team of chemists and astronomers have made a groundbreaking discovery in the field of astrochemistry: the identification of cyanocoronene, the largest polycyclic aromatic hydrocarbon (PAH) ever detected in space. This molecule, composed of seven interconnected benzene rings and a cyano group (C₂₄H₁₁CN), was found in the cold, dark molecular cloud TMC-1, a region known for its rich chemistry and as a cradle for new stars.  categories: [Astrochemistry, GBT]
+  date: 2025-06-09
 
 - title: More cyanopyrenes in TMC-1!
   path: https://www.nature.com/articles/s41550-024-02410-9
