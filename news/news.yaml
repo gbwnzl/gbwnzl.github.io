@@ -11,7 +11,16 @@
   image: https://public.nrao.edu/wp-content/uploads/2025/06/Wenzel_SPR2025-cyanocoronene-1170x600.jpg
   description: >
     A team of chemists and astronomers have made a groundbreaking discovery in the field of astrochemistry: the identification of cyanocoronene, the largest polycyclic aromatic hydrocarbon (PAH) ever detected in space. This molecule, composed of seven interconnected benzene rings and a cyano group (C₂₄H₁₁CN), was found in the cold, dark molecular cloud TMC-1, a region known for its rich chemistry and as a cradle for new stars.  categories: [Astrochemistry, GBT]
+  categories: [Astrochemistry, GBT]
   date: 2025-06-09
+
+- title: Exploring the Molecular Universe with Spectroscopy
+  path:   https://www.spectroscopyonline.com/view/exploring-the-molecular-university-with-spectroscopy-an-interview-with-gabi-wenzel
+  image: https://www.spectroscopyonline.com/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F0vv8moc6%2Fspectroscopy%2Ff9785fd1c236b964e45bfdd1844c43482bcf2af3-1280x720.png%3Ffit%3Dcrop%26auto%3Dformat&w=3840&q=75
+  description: >
+    As part of our celebration of National Space Day, *Spectroscopy Online* sat down with Gabi Wenzel to discuss how spectroscopy is being used to explore the molecular universe.
+  categories: [Spectroscopy, Space]
+  date: 2025-05-02
 
 - title: More cyanopyrenes in TMC-1!
   path: https://www.nature.com/articles/s41550-024-02410-9
