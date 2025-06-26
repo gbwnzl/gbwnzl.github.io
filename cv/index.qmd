@@ -63,3 +63,12 @@ BSc in Physics | <time>10/2010</time> - <time>09/2014</time> <br>
 <b> Synchrotron SOLEIL</b> | Gif-sur-Yvette, France <br>
 <b> HPC OLYMPE CALMIP</b> | Toulouse, France <br>
 <b> HPC GALILEO CINECA</b> | Bologna, Italy <br>
+---
+
+## Full CV as PDF
+
+<a href="downloads/CV_GabiWenzel.pdf" class="btn btn-primary" download>
+  <i class="bi bi-download"></i> <b>Download CV</b>
+</a> <a href="downloads/CV_GabiWenzel.pdf" target="_blank" class="btn btn-secondary">
+  <i class="bi bi-eye"></i> <b>View CV</b>
+</a>
