@@ -24,7 +24,7 @@ Cambridge, MA, USA <br>
 
 <b> Center for Astrophysics | Harvard & Smithsonian</b><br>
 Cambridge, MA, USA <br>
-<a href="https://www.cfa.harvard.edu/people/gabi-wenzel" class="cvpage">Visiting Scientist</a> | <time>10/2024</time> - present  <br> <br>
+<a href="https://www.cfa.harvard.edu/people/gabi-wenzel" class="cvpage">Visiting Scientist</a> | <time>10/2024</time> - present  <br>
 ---
 
 ## Previously
