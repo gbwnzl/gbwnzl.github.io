@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.6.40">
+<meta name="generator" content="quarto-1.7.32">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -33,17 +33,18 @@ ul.task-list li input[type="checkbox"] {
 <link href="../files/coronene_icon.png" rel="icon" type="image/png">
 <script src="../site_libs/quarto-listing/list.min.js"></script>
 <script src="../site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-549806ee2085284f45b00abea8c6df48.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark-8ea72dc5fed832574809a9c94082fbbb.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark-2fef5ea3f8957b3e4ecc936fc74692ca.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-5ec540ef4d6a50531418d4da81656d41.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../site_libs/bootstrap/bootstrap-dark-24374e758dcdba10af5cd5e20f06f4ec.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../site_libs/bootstrap/bootstrap-5547439608173fe6b555172b60295987.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark-cc4eca16803fd82a80a42ff8a2d5bef3.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
 <link href="../site_libs/quarto-contrib/fontawesome6-1.2.0/all.min.css" rel="stylesheet">
 <link href="../site_libs/quarto-contrib/fontawesome6-1.2.0/latex-fontsize.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
@@ -148,7 +149,167 @@ window.Quarto = {
 <meta name="twitter:card" content="summary">
 </head>
 
-<body class="nav-fixed">
+<body class="nav-fixed quarto-dark"><script id="quarto-html-before-body" type="application/javascript">
+    const toggleBodyColorMode = (bsSheetEl) => {
+      const mode = bsSheetEl.getAttribute("data-mode");
+      const bodyEl = window.document.querySelector("body");
+      if (mode === "dark") {
+        bodyEl.classList.add("quarto-dark");
+        bodyEl.classList.remove("quarto-light");
+      } else {
+        bodyEl.classList.add("quarto-light");
+        bodyEl.classList.remove("quarto-dark");
+      }
+    }
+    const toggleBodyColorPrimary = () => {
+      const bsSheetEl = window.document.querySelector("link#quarto-bootstrap:not([rel=disabled-stylesheet])");
+      if (bsSheetEl) {
+        toggleBodyColorMode(bsSheetEl);
+      }
+    }
+    const setColorSchemeToggle = (alternate) => {
+      const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+      for (let i=0; i < toggles.length; i++) {
+        const toggle = toggles[i];
+        if (toggle) {
+          if (alternate) {
+            toggle.classList.add("alternate");
+          } else {
+            toggle.classList.remove("alternate");
+          }
+        }
+      }
+    };
+    const toggleColorMode = (alternate) => {
+      // Switch the stylesheets
+      const primaryStylesheets = window.document.querySelectorAll('link.quarto-color-scheme:not(.quarto-color-alternate)');
+      const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+      manageTransitions('#quarto-margin-sidebar .nav-link', false);
+      if (alternate) {
+        // note: dark is layered on light, we don't disable primary!
+        enableStylesheet(alternateStylesheets);
+        for (const sheetNode of alternateStylesheets) {
+          if (sheetNode.id === "quarto-bootstrap") {
+            toggleBodyColorMode(sheetNode);
+          }
+        }
+      } else {
+        disableStylesheet(alternateStylesheets);
+        enableStylesheet(primaryStylesheets)
+        toggleBodyColorPrimary();
+      }
+      manageTransitions('#quarto-margin-sidebar .nav-link', true);
+      // Switch the toggles
+      setColorSchemeToggle(alternate)
+      // Hack to workaround the fact that safari doesn't
+      // properly recolor the scrollbar when toggling (#1455)
+      if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+        manageTransitions("body", false);
+        window.scrollTo(0, 1);
+        setTimeout(() => {
+          window.scrollTo(0, 0);
+          manageTransitions("body", true);
+        }, 40);
+      }
+    }
+    const disableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        stylesheet.rel = 'disabled-stylesheet';
+      }
+    }
+    const enableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        if(stylesheet.rel !== 'stylesheet') { // for Chrome, which will still FOUC without this check
+          stylesheet.rel = 'stylesheet';
+        }
+      }
+    }
+    const manageTransitions = (selector, allowTransitions) => {
+      const els = window.document.querySelectorAll(selector);
+      for (let i=0; i < els.length; i++) {
+        const el = els[i];
+        if (allowTransitions) {
+          el.classList.remove('notransition');
+        } else {
+          el.classList.add('notransition');
+        }
+      }
+    }
+    const isFileUrl = () => {
+      return window.location.protocol === 'file:';
+    }
+    const hasAlternateSentinel = () => {
+      let styleSentinel = getColorSchemeSentinel();
+      if (styleSentinel !== null) {
+        return styleSentinel === "alternate";
+      } else {
+        return false;
+      }
+    }
+    const setStyleSentinel = (alternate) => {
+      const value = alternate ? "alternate" : "default";
+      if (!isFileUrl()) {
+        window.localStorage.setItem("quarto-color-scheme", value);
+      } else {
+        localAlternateSentinel = value;
+      }
+    }
+    const getColorSchemeSentinel = () => {
+      if (!isFileUrl()) {
+        const storageValue = window.localStorage.getItem("quarto-color-scheme");
+        return storageValue != null ? storageValue : localAlternateSentinel;
+      } else {
+        return localAlternateSentinel;
+      }
+    }
+    const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
+      const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
+      const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
+      let newTheme = '';
+      if(authorPrefersDark) {
+        newTheme = isAlternate ? baseTheme : alternateTheme;
+      } else {
+        newTheme = isAlternate ? alternateTheme : baseTheme;
+      }
+      const changeGiscusTheme = () => {
+        // From: https://github.com/giscus/giscus/issues/336
+        const sendMessage = (message) => {
+          const iframe = document.querySelector('iframe.giscus-frame');
+          if (!iframe) return;
+          iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+        }
+        sendMessage({
+          setConfig: {
+            theme: newTheme
+          }
+        });
+      }
+      const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
+      if (isGiscussLoaded) {
+        changeGiscusTheme();
+      }
+    };
+    const authorPrefersDark = true;
+    const darkModeDefault = authorPrefersDark;
+    let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
+    // Dark / light mode switch
+    window.quartoToggleColorScheme = () => {
+      // Read the current dark / light value
+      let toAlternate = !hasAlternateSentinel();
+      toggleColorMode(toAlternate);
+      setStyleSentinel(toAlternate);
+      toggleGiscusIfUsed(toAlternate, darkModeDefault);
+      window.dispatchEvent(new Event('resize'));
+    };
+    // Switch to dark mode if need be
+    if (hasAlternateSentinel()) {
+      toggleColorMode(true);
+    } else {
+      toggleColorMode(false);
+    }
+  </script>
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -206,6 +367,7 @@ window.Quarto = {
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
+
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
 <h1 class="title">News</h1>
@@ -232,20 +394,20 @@ window.Quarto = {
 <div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
 <div class="listing-actions-group">
    <div class="input-group input-group-sm quarto-listing-sort">
-     <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
-     <select id="listing-listing-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-listing'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
-       <option value="" disabled="" selected="" hidden="">Order By</option>
-       <option value="index" data-direction="asc">Default</option>
-         <option value="listing-title" data-direction="asc">
-          Title
-        </option>
-         <option value="listing-date-sort" data-direction="asc">
-          Date - Oldest
-        </option>
-         <option value="listing-date-sort" data-direction="desc">
-          Date - Newest
-        </option>
-     </select>
+    <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
+    <select id="listing-listing-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-listing'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
+      <option value="" disabled="" selected="" hidden="">Order By</option>
+      <option value="index" data-direction="asc">Default</option>
+      <option value="listing-title" data-direction="asc">
+        Title
+      </option>
+      <option value="listing-date-sort" data-direction="asc">
+        Date - Oldest
+      </option>
+      <option value="listing-date-sort" data-direction="desc">
+        Date - Newest
+      </option>
+    </select>
   </div>
 </div>
 <div class="list grid quarto-listing-cols-3">
@@ -260,15 +422,14 @@ window.Quarto = {
 Riesen-Molekül im Weltall aufgespürt
 </h5>
 <div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('U3Bla3RydW0='); return false;">
-Spektrum
+
+<div class="listing-category" onclick="window.quartoListingCategory('U3Bla3RydW0='); return false;">Spektrum</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('R2VybWFu'); return false;">German</div>
+
 </div>
-<div class="listing-category" onclick="window.quartoListingCategory('R2VybWFu'); return false;">
-German
-</div>
-</div>
-<div class="card-text listing-description">
-Weit draußen im Weltall existiert komplexere organische Materie als bislang gedacht – und mehr davon als angenommen. Das legt die neueste Entdeckung eines Forschungsteams aus den USA und Kanada nahe: Die Fachleute haben einen Stoff namens Cyanocoronen im…
+<div class="card-text listing-description delink">
+<p>Weit draußen im Weltall existiert komplexere organische Materie als bislang gedacht – und mehr davon als angenommen. Das legt die neueste Entdeckung eines Forschungsteams aus den USA und Kanada nahe: Die Fachleute haben einen Stoff namens Cyanocoronen im…</p>
 </div>
 <div class="card-attribution card-text-small end">
 <div class="listing-date">
@@ -276,8 +437,7 @@ Jun 23, 2025
 </div>
 </div>
 </div>
-</div>
-</a>
+</div></a>
 </div>
 <div class="g-col-1" data-index="1" data-categories="QXN0cm9jaGVtaXN0cnklMkNHQlQ=" data-listing-date-sort="1749441600000">
 <a href="https://www.youtube.com/live/gJjSZu9ob8Q?feature=shared&amp;t=162" class="quarto-grid-link">
@@ -290,14 +450,13 @@ Jun 23, 2025
 AAS 246 Press Conference - From Molecules to Molecular Clouds
 </h5>
 <div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('QXN0cm9jaGVtaXN0cnk='); return false;">
-Astrochemistry
+
+<div class="listing-category" onclick="window.quartoListingCategory('QXN0cm9jaGVtaXN0cnk='); return false;">Astrochemistry</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('R0JU'); return false;">GBT</div>
+
 </div>
-<div class="listing-category" onclick="window.quartoListingCategory('R0JU'); return false;">
-GBT
-</div>
-</div>
-<div class="card-text listing-description">
+<div class="card-text listing-description delink">
 <p>Our discovery of the seven-ring cyanocoronene in the Taurus molecular cloud was featured during the 246th Meeting of the American Astronomical Society held in Anchorage, Alaska. Click here to watch the video!</p>
 </div>
 <div class="card-attribution card-text-small end">
@@ -306,8 +465,7 @@ Jun 9, 2025
 </div>
 </div>
 </div>
-</div>
-</a>
+</div></a>
 </div>
 <div class="g-col-1" data-index="2" data-categories="QXN0cm9jaGVtaXN0cnklMkNHQlQ=" data-listing-date-sort="1749441600000">
 <a href="https://public.nrao.edu/news/cosmic-chemistry-breakthrough-largest-aromatic-molecule-found-in-deep-space/" class="quarto-grid-link">
@@ -320,15 +478,14 @@ Jun 9, 2025
 Cosmic Chemistry Breakthrough, Largest Aromatic Molecule Found in Deep Space
 </h5>
 <div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('QXN0cm9jaGVtaXN0cnk='); return false;">
-Astrochemistry
+
+<div class="listing-category" onclick="window.quartoListingCategory('QXN0cm9jaGVtaXN0cnk='); return false;">Astrochemistry</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('R0JU'); return false;">GBT</div>
+
 </div>
-<div class="listing-category" onclick="window.quartoListingCategory('R0JU'); return false;">
-GBT
-</div>
-</div>
-<div class="card-text listing-description">
-A team of chemists and astronomers have made a groundbreaking discovery in the field of astrochemistry: the identification of cyanocoronene, the largest polycyclic aromatic hydrocarbon (PAH) ever detected in space. This molecule, composed of seven interconnected…
+<div class="card-text listing-description delink">
+<p>A team of chemists and astronomers have made a groundbreaking discovery in the field of astrochemistry: the identification of cyanocoronene, the largest polycyclic aromatic hydrocarbon (PAH) ever detected in space. This molecule, composed of seven interconnected…</p>
 </div>
 <div class="card-attribution card-text-small end">
 <div class="listing-date">
@@ -336,8 +493,7 @@ Jun 9, 2025
 </div>
 </div>
 </div>
-</div>
-</a>
+</div></a>
 </div>
 <div class="g-col-1" data-index="3" data-categories="U3BlY3Ryb3Njb3B5JTJDU3BhY2U=" data-listing-date-sort="1746158400000">
 <a href="https://www.spectroscopyonline.com/view/exploring-the-molecular-university-with-spectroscopy-an-interview-with-gabi-wenzel" class="quarto-grid-link">
@@ -350,14 +506,13 @@ Jun 9, 2025
 Exploring the Molecular Universe with Spectroscopy
 </h5>
 <div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('U3BlY3Ryb3Njb3B5'); return false;">
-Spectroscopy
+
+<div class="listing-category" onclick="window.quartoListingCategory('U3BlY3Ryb3Njb3B5'); return false;">Spectroscopy</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('U3BhY2U='); return false;">Space</div>
+
 </div>
-<div class="listing-category" onclick="window.quartoListingCategory('U3BhY2U='); return false;">
-Space
-</div>
-</div>
-<div class="card-text listing-description">
+<div class="card-text listing-description delink">
 <p>As part of our celebration of National Space Day, <em>Spectroscopy Online</em> sat down with Gabi Wenzel to discuss how spectroscopy is being used to explore the molecular universe.</p>
 </div>
 <div class="card-attribution card-text-small end">
@@ -366,8 +521,7 @@ May 2, 2025
 </div>
 </div>
 </div>
-</div>
-</a>
+</div></a>
 </div>
 <div class="g-col-1" data-index="4" data-categories="QXN0cm9jaGVtaXN0cnklMkNHQlQ=" data-listing-date-sort="1730782800000">
 <a href="https://www.nature.com/articles/s41550-024-02410-9" class="quarto-grid-link">
@@ -380,14 +534,13 @@ May 2, 2025
 More cyanopyrenes in TMC-1!
 </h5>
 <div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('QXN0cm9jaGVtaXN0cnk='); return false;">
-Astrochemistry
+
+<div class="listing-category" onclick="window.quartoListingCategory('QXN0cm9jaGVtaXN0cnk='); return false;">Astrochemistry</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('R0JU'); return false;">GBT</div>
+
 </div>
-<div class="listing-category" onclick="window.quartoListingCategory('R0JU'); return false;">
-GBT
-</div>
-</div>
-<div class="card-text listing-description">
+<div class="card-text listing-description delink">
 <p>We detected all three cyanopyrene isomers in the cold dark cloud TMC-1. Their observed abundance ratio of ~2:1:2 reflects the available carbon sites for CN addition to pyrene. We discuss this further in our recent article appearing in Nature Astronomy today.</p>
 </div>
 <div class="card-attribution card-text-small end">
@@ -396,8 +549,7 @@ Nov 5, 2024
 </div>
 </div>
 </div>
-</div>
-</a>
+</div></a>
 </div>
 <div class="g-col-1" data-index="5" data-categories="WmVpdCUyQ0dlcm1hbg==" data-listing-date-sort="1730260800000">
 <a href="https://www.zeit.de/2024/46/kohlenstoff-weltall-schadstoffe-universum-astronomie?utm_campaign=ref&amp;utm_source=twitter_zonaudev_int&amp;wt_zmc=sm.int.zonaudev.twitter.ref.zeitde.redpost.link.sf&amp;utm_content=zeitde_redpost+_link_sf&amp;utm_referrer=twitter&amp;utm_medium=sm" class="quarto-grid-link">
@@ -410,15 +562,14 @@ Nov 5, 2024
 Schadstoffe im fast leeren Raum
 </h5>
 <div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('WmVpdA=='); return false;">
-Zeit
+
+<div class="listing-category" onclick="window.quartoListingCategory('WmVpdA=='); return false;">Zeit</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('R2VybWFu'); return false;">German</div>
+
 </div>
-<div class="listing-category" onclick="window.quartoListingCategory('R2VybWFu'); return false;">
-German
-</div>
-</div>
-<div class="card-text listing-description">
-The German newspaper <i>Die Zeit</i> featured our detection of interstellar 1-cyanopyrene. Read along for Sibylle Anderl’s take on PAHs in space: Bestimmte kohlenstoffhaltige Moleküle vergiften die irdische Umwelt - und kommen in überraschend großen Mengen im All vor.…
+<div class="card-text listing-description delink">
+<p>The German newspaper <i>Die Zeit</i> featured our detection of interstellar 1-cyanopyrene. Read along for Sibylle Anderl’s take on PAHs in space: Bestimmte kohlenstoffhaltige Moleküle vergiften die irdische Umwelt - und kommen in überraschend großen Mengen im All vor.…</p>
 </div>
 <div class="card-attribution card-text-small end">
 <div class="listing-date">
@@ -426,8 +577,7 @@ Oct 30, 2024
 </div>
 </div>
 </div>
-</div>
-</a>
+</div></a>
 </div>
 <div class="g-col-1" data-index="6" data-categories="QXN0cm9jaGVtaXN0cnklMkNHQlQ=" data-listing-date-sort="1729742400000">
 <a href="https://ici.radio-canada.ca/nouvelle/2114612/radioastronomie-carbone-recherche-etude-scientifique" class="quarto-grid-link">
@@ -440,15 +590,14 @@ Oct 30, 2024
 Une molécule détectée pour la première fois dans l’espace
 </h5>
 <div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('QXN0cm9jaGVtaXN0cnk='); return false;">
-Astrochemistry
+
+<div class="listing-category" onclick="window.quartoListingCategory('QXN0cm9jaGVtaXN0cnk='); return false;">Astrochemistry</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('R0JU'); return false;">GBT</div>
+
 </div>
-<div class="listing-category" onclick="window.quartoListingCategory('R0JU'); return false;">
-GBT
-</div>
-</div>
-<div class="card-text listing-description">
-Un groupe de chercheurs interdisciplinaire a annoncé, jeudi, la détection d’une molécule retrouvée pour la première fois dans l’espace. Cette découverte pourrait aider les scientifiques à comprendre la formation de notre système solaire et le développement de la vie…
+<div class="card-text listing-description delink">
+<p>Un groupe de chercheurs interdisciplinaire a annoncé, jeudi, la détection d’une molécule retrouvée pour la première fois dans l’espace. Cette découverte pourrait aider les scientifiques à comprendre la formation de notre système solaire et le développement de la vie…</p>
 </div>
 <div class="card-attribution card-text-small end">
 <div class="listing-date">
@@ -456,8 +605,7 @@ Oct 24, 2024
 </div>
 </div>
 </div>
-</div>
-</a>
+</div></a>
 </div>
 <div class="g-col-1" data-index="7" data-categories="UmVzZWFyY2glMkNUZWNobm9sb2d5" data-listing-date-sort="1729742400000">
 <a href="https://news.mit.edu/2024/scientists-discover-molecules-store-carbon-in-space-1024" class="quarto-grid-link">
@@ -470,15 +618,14 @@ Oct 24, 2024
 Scientists discover molecules that store much of the carbon in space
 </h5>
 <div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('UmVzZWFyY2g='); return false;">
-Research
+
+<div class="listing-category" onclick="window.quartoListingCategory('UmVzZWFyY2g='); return false;">Research</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('VGVjaG5vbG9neQ=='); return false;">Technology</div>
+
 </div>
-<div class="listing-category" onclick="window.quartoListingCategory('VGVjaG5vbG9neQ=='); return false;">
-Technology
-</div>
-</div>
-<div class="card-text listing-description">
-A team led by researchers at MIT has discovered that a distant interstellar cloud contains an abundance of pyrene, a type of large, carbon-containing molecule known as a polycyclic aromatic hydrocarbon (PAH). The discovery of pyrene in this far-off cloud, which is…
+<div class="card-text listing-description delink">
+<p>A team led by researchers at MIT has discovered that a distant interstellar cloud contains an abundance of pyrene, a type of large, carbon-containing molecule known as a polycyclic aromatic hydrocarbon (PAH). The discovery of pyrene in this far-off cloud, which is…</p>
 </div>
 <div class="card-attribution card-text-small end">
 <div class="listing-date">
@@ -486,8 +633,7 @@ Oct 24, 2024
 </div>
 </div>
 </div>
-</div>
-</a>
+</div></a>
 </div>
 <div class="g-col-1" data-index="8" data-categories="QXN0cm9jaGVtaXN0cnklMkNHQlQ=" data-listing-date-sort="1729742400000">
 <a href="https://www.cfa.harvard.edu/news/astronomers-discover-new-building-blocks-complex-organic-matter" class="quarto-grid-link">
@@ -500,15 +646,14 @@ Oct 24, 2024
 CfA features 1-cyanopyrene detection
 </h5>
 <div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('QXN0cm9jaGVtaXN0cnk='); return false;">
-Astrochemistry
+
+<div class="listing-category" onclick="window.quartoListingCategory('QXN0cm9jaGVtaXN0cnk='); return false;">Astrochemistry</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('R0JU'); return false;">GBT</div>
+
 </div>
-<div class="listing-category" onclick="window.quartoListingCategory('R0JU'); return false;">
-GBT
-</div>
-</div>
-<div class="card-text listing-description">
-The element carbon is a building block for life, both on Earth and potentially elsewhere in the vast reaches of space. There should be a lot of carbon in space, but surprisingly, it’s not always easy to find. While it can be observed in many places, it doesn’t add up…
+<div class="card-text listing-description delink">
+<p>The element carbon is a building block for life, both on Earth and potentially elsewhere in the vast reaches of space. There should be a lot of carbon in space, but surprisingly, it’s not always easy to find. While it can be observed in many places, it doesn’t add up…</p>
 </div>
 <div class="card-attribution card-text-small end">
 <div class="listing-date">
@@ -516,8 +661,7 @@ Oct 24, 2024
 </div>
 </div>
 </div>
-</div>
-</a>
+</div></a>
 </div>
 <div class="g-col-1" data-index="9" data-categories="UmVzZWFyY2glMkNUZWNobm9sb2d5" data-listing-date-sort="1724126400000">
 <a href="https://chemistry.mit.edu/chemistry-news/postdoctoral-researcher-spotlight-gabi-wenzel/" class="quarto-grid-link">
@@ -530,15 +674,14 @@ Oct 24, 2024
 Postdoctoral Researcher Spotlight
 </h5>
 <div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('UmVzZWFyY2g='); return false;">
-Research
+
+<div class="listing-category" onclick="window.quartoListingCategory('UmVzZWFyY2g='); return false;">Research</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('VGVjaG5vbG9neQ=='); return false;">Technology</div>
+
 </div>
-<div class="listing-category" onclick="window.quartoListingCategory('VGVjaG5vbG9neQ=='); return false;">
-Technology
-</div>
-</div>
-<div class="card-text listing-description">
-Postdoctoral Researcher Dr.&nbsp;Gabi Wenzel describes her research and answers 20 random questions. Originally from Germany, Gabi Wenzel arrived at MIT in October 22. She completed her Bachelors and Masters Degrees in Germany, majoring in Physics for both. Gabi earned her…
+<div class="card-text listing-description delink">
+<p>Postdoctoral Researcher Dr.&nbsp;Gabi Wenzel describes her research and answers 20 random questions. Originally from Germany, Gabi Wenzel arrived at MIT in October 22. She completed her Bachelors and Masters Degrees in Germany, majoring in Physics for both. Gabi earned her…</p>
 </div>
 <div class="card-attribution card-text-small end">
 <div class="listing-date">
@@ -546,8 +689,7 @@ Aug 20, 2024
 </div>
 </div>
 </div>
-</div>
-</a>
+</div></a>
 </div>
 <div class="g-col-1" data-index="10" data-categories="QXN0cm9jaGVtaXN0cnklMkNBTE1B" data-listing-date-sort="1713758400000">
 <a href="https://chemistry.mit.edu/chemistry-news/researchers-detect-a-new-molecule-in-space/" class="quarto-grid-link">
@@ -560,15 +702,14 @@ Aug 20, 2024
 2-methoxyethanol is our new space molecule!
 </h5>
 <div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('QXN0cm9jaGVtaXN0cnk='); return false;">
-Astrochemistry
+
+<div class="listing-category" onclick="window.quartoListingCategory('QXN0cm9jaGVtaXN0cnk='); return false;">Astrochemistry</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('QUxNQQ=='); return false;">ALMA</div>
+
 </div>
-<div class="listing-category" onclick="window.quartoListingCategory('QUxNQQ=='); return false;">
-ALMA
-</div>
-</div>
-<div class="card-text listing-description">
-New research from the group of MIT Professor Brett McGuire has revealed the presence of a previously unknown molecule in space. The team’s open-access paper, “Rotational Spectrum and First Interstellar Detection of 2-Methoxyethanol Using ALMA Observations of NGC…
+<div class="card-text listing-description delink">
+<p>New research from the group of MIT Professor Brett McGuire has revealed the presence of a previously unknown molecule in space. The team’s open-access paper, “Rotational Spectrum and First Interstellar Detection of 2-Methoxyethanol Using ALMA Observations of NGC…</p>
 </div>
 <div class="card-attribution card-text-small end">
 <div class="listing-date">
@@ -576,8 +717,7 @@ Apr 22, 2024
 </div>
 </div>
 </div>
-</div>
-</a>
+</div></a>
 </div>
 <div class="g-col-1" data-index="11" data-categories="U2NpZW5jZSUyQ1RlY2hub2xvZ3k=" data-listing-date-sort="1709528400000">
 <a href="https://news.mit.edu/2024/school-science-infinite-expansion-awards-0304" class="quarto-grid-link">
@@ -590,15 +730,14 @@ Apr 22, 2024
 School of Science announces 2024 Infinite Expansion Awards
 </h5>
 <div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('U2NpZW5jZQ=='); return false;">
-Science
+
+<div class="listing-category" onclick="window.quartoListingCategory('U2NpZW5jZQ=='); return false;">Science</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('VGVjaG5vbG9neQ=='); return false;">Technology</div>
+
 </div>
-<div class="listing-category" onclick="window.quartoListingCategory('VGVjaG5vbG9neQ=='); return false;">
-Technology
-</div>
-</div>
-<div class="card-text listing-description">
-Nine postdocs and research scientists honored for contributions to the Institute. The MIT School of Science has announced nine postdocs and research scientists as recipients of the 2024 Infinite Expansion Award, which highlights extraordinary members of the MIT…
+<div class="card-text listing-description delink">
+<p>Nine postdocs and research scientists honored for contributions to the Institute. The MIT School of Science has announced nine postdocs and research scientists as recipients of the 2024 Infinite Expansion Award, which highlights extraordinary members of the MIT…</p>
 </div>
 <div class="card-attribution card-text-small end">
 <div class="listing-date">
@@ -606,389 +745,261 @@ Mar 4, 2024
 </div>
 </div>
 </div>
+</div></a>
 </div>
-</a>
 </div>
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
+<div class="listing-no-matching d-none">No matching items</div>
 </div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
-window.document.addEventListener("DOMContentLoaded", function (event) {
-  const toggleBodyColorMode = (bsSheetEl) => {
-    const mode = bsSheetEl.getAttribute("data-mode");
-    const bodyEl = window.document.querySelector("body");
-    if (mode === "dark") {
-      bodyEl.classList.add("quarto-dark");
-      bodyEl.classList.remove("quarto-light");
-    } else {
-      bodyEl.classList.add("quarto-light");
-      bodyEl.classList.remove("quarto-dark");
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    // Ensure there is a toggle, if there isn't float one in the top right
+    if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+      const a = window.document.createElement('a');
+      a.classList.add('top-right');
+      a.classList.add('quarto-color-scheme-toggle');
+      a.href = "";
+      a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+      const i = window.document.createElement("i");
+      i.classList.add('bi');
+      a.appendChild(i);
+      window.document.body.appendChild(a);
     }
-  }
-  const toggleBodyColorPrimary = () => {
-    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
-    if (bsSheetEl) {
-      toggleBodyColorMode(bsSheetEl);
-    }
-  }
-  toggleBodyColorPrimary();  
-  const disableStylesheet = (stylesheets) => {
-    for (let i=0; i < stylesheets.length; i++) {
-      const stylesheet = stylesheets[i];
-      stylesheet.rel = 'prefetch';
-    }
-  }
-  const enableStylesheet = (stylesheets) => {
-    for (let i=0; i < stylesheets.length; i++) {
-      const stylesheet = stylesheets[i];
-      stylesheet.rel = 'stylesheet';
-    }
-  }
-  const manageTransitions = (selector, allowTransitions) => {
-    const els = window.document.querySelectorAll(selector);
-    for (let i=0; i < els.length; i++) {
-      const el = els[i];
-      if (allowTransitions) {
-        el.classList.remove('notransition');
-      } else {
-        el.classList.add('notransition');
+    setColorSchemeToggle(hasAlternateSentinel())
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
       }
+      return false;
     }
-  }
-  const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
-    const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
-    const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
-    let newTheme = '';
-    if(darkModeDefault) {
-      newTheme = isAlternate ? baseTheme : alternateTheme;
-    } else {
-      newTheme = isAlternate ? alternateTheme : baseTheme;
-    }
-    const changeGiscusTheme = () => {
-      // From: https://github.com/giscus/giscus/issues/336
-      const sendMessage = (message) => {
-        const iframe = document.querySelector('iframe.giscus-frame');
-        if (!iframe) return;
-        iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
       }
-      sendMessage({
-        setConfig: {
-          theme: newTheme
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+        const codeEl = trigger.previousElementSibling.cloneNode(true);
+        for (const childEl of codeEl.children) {
+          if (isCodeAnnotation(childEl)) {
+            childEl.remove();
+          }
+        }
+        return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/gbwnzl\.github\.io\/");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
         }
       });
     }
-    const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
-    if (isGiscussLoaded) {
-      changeGiscusTheme();
-    }
-  }
-  const toggleColorMode = (alternate) => {
-    // Switch the stylesheets
-    const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
-    manageTransitions('#quarto-margin-sidebar .nav-link', false);
-    if (alternate) {
-      enableStylesheet(alternateStylesheets);
-      for (const sheetNode of alternateStylesheets) {
-        if (sheetNode.id === "quarto-bootstrap") {
-          toggleBodyColorMode(sheetNode);
-        }
-      }
-    } else {
-      disableStylesheet(alternateStylesheets);
-      toggleBodyColorPrimary();
-    }
-    manageTransitions('#quarto-margin-sidebar .nav-link', true);
-    // Switch the toggles
-    const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
-    for (let i=0; i < toggles.length; i++) {
-      const toggle = toggles[i];
-      if (toggle) {
-        if (alternate) {
-          toggle.classList.add("alternate");     
-        } else {
-          toggle.classList.remove("alternate");
-        }
-      }
-    }
-    // Hack to workaround the fact that safari doesn't
-    // properly recolor the scrollbar when toggling (#1455)
-    if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
-      manageTransitions("body", false);
-      window.scrollTo(0, 1);
-      setTimeout(() => {
-        window.scrollTo(0, 0);
-        manageTransitions("body", true);
-      }, 40);  
-    }
-  }
-  const isFileUrl = () => { 
-    return window.location.protocol === 'file:';
-  }
-  const hasAlternateSentinel = () => {  
-    let styleSentinel = getColorSchemeSentinel();
-    if (styleSentinel !== null) {
-      return styleSentinel === "alternate";
-    } else {
-      return false;
-    }
-  }
-  const setStyleSentinel = (alternate) => {
-    const value = alternate ? "alternate" : "default";
-    if (!isFileUrl()) {
-      window.localStorage.setItem("quarto-color-scheme", value);
-    } else {
-      localAlternateSentinel = value;
-    }
-  }
-  const getColorSchemeSentinel = () => {
-    if (!isFileUrl()) {
-      const storageValue = window.localStorage.getItem("quarto-color-scheme");
-      return storageValue != null ? storageValue : localAlternateSentinel;
-    } else {
-      return localAlternateSentinel;
-    }
-  }
-  const darkModeDefault = true;
-  let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
-  // Dark / light mode switch
-  window.quartoToggleColorScheme = () => {
-    // Read the current dark / light value 
-    let toAlternate = !hasAlternateSentinel();
-    toggleColorMode(toAlternate);
-    setStyleSentinel(toAlternate);
-    toggleGiscusIfUsed(toAlternate, darkModeDefault);
-  };
-  // Ensure there is a toggle, if there isn't float one in the top right
-  if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
-    const a = window.document.createElement('a');
-    a.classList.add('top-right');
-    a.classList.add('quarto-color-scheme-toggle');
-    a.href = "";
-    a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
-    const i = window.document.createElement("i");
-    i.classList.add('bi');
-    a.appendChild(i);
-    window.document.body.appendChild(a);
-  }
-  // Switch to dark mode if need be
-  if (hasAlternateSentinel()) {
-    toggleColorMode(true);
-  } else {
-    toggleColorMode(false);
-  }
-  const icon = "";
-  const anchorJS = new window.AnchorJS();
-  anchorJS.options = {
-    placement: 'right',
-    icon: icon
-  };
-  anchorJS.add('.anchored');
-  const isCodeAnnotation = (el) => {
-    for (const clz of el.classList) {
-      if (clz.startsWith('code-annotation-')) {                     
-        return true;
-      }
-    }
-    return false;
-  }
-  const onCopySuccess = function(e) {
-    // button target
-    const button = e.trigger;
-    // don't keep focus
-    button.blur();
-    // flash "checked"
-    button.classList.add('code-copy-button-checked');
-    var currentTitle = button.getAttribute("title");
-    button.setAttribute("title", "Copied!");
-    let tooltip;
-    if (window.bootstrap) {
-      button.setAttribute("data-bs-toggle", "tooltip");
-      button.setAttribute("data-bs-placement", "left");
-      button.setAttribute("data-bs-title", "Copied!");
-      tooltip = new bootstrap.Tooltip(button, 
-        { trigger: "manual", 
-          customClass: "code-copy-button-tooltip",
-          offset: [0, -8]});
-      tooltip.show();    
-    }
-    setTimeout(function() {
-      if (tooltip) {
-        tooltip.hide();
-        button.removeAttribute("data-bs-title");
-        button.removeAttribute("data-bs-toggle");
-        button.removeAttribute("data-bs-placement");
-      }
-      button.setAttribute("title", currentTitle);
-      button.classList.remove('code-copy-button-checked');
-    }, 1000);
-    // clear code selection
-    e.clearSelection();
-  }
-  const getTextToCopy = function(trigger) {
-      const codeEl = trigger.previousElementSibling.cloneNode(true);
-      for (const childEl of codeEl.children) {
-        if (isCodeAnnotation(childEl)) {
-          childEl.remove();
-        }
-      }
-      return codeEl.innerText;
-  }
-  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
-    text: getTextToCopy
-  });
-  clipboard.on('success', onCopySuccess);
-  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
-    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
-      text: getTextToCopy,
-      container: window.document.getElementById('quarto-embedded-source-code-modal')
-    });
-    clipboardModal.on('success', onCopySuccess);
-  }
-    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
-    var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp("https:\/\/gbwnzl\.github\.io\/");
-    var isInternal = (href) => {
-        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
-    }
-    // Inspect non-navigation links and adorn them if external
- 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
-    for (var i=0; i<links.length; i++) {
-      const link = links[i];
-      if (!isInternal(link.href)) {
-        // undo the damage that might have been done by quarto-nav.js in the case of
-        // links that we want to consider external
-        if (link.dataset.originalHref !== undefined) {
-          link.href = link.dataset.originalHref;
-        }
-      }
-    }
-  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
-    const config = {
-      allowHTML: true,
-      maxWidth: 500,
-      delay: 100,
-      arrow: false,
-      appendTo: function(el) {
-          return el.parentElement;
-      },
-      interactive: true,
-      interactiveBorder: 10,
-      theme: 'quarto',
-      placement: 'bottom-start',
-    };
-    if (contentFn) {
-      config.content = contentFn;
-    }
-    if (onTriggerFn) {
-      config.onTrigger = onTriggerFn;
-    }
-    if (onUntriggerFn) {
-      config.onUntrigger = onUntriggerFn;
-    }
-    window.tippy(el, config); 
-  }
-  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
-  for (var i=0; i<noterefs.length; i++) {
-    const ref = noterefs[i];
-    tippyHover(ref, function() {
-      // use id or data attribute instead here
-      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
-      try { href = new URL(href).hash; } catch {}
-      const id = href.replace(/^#\/?/, "");
-      const note = window.document.getElementById(id);
-      if (note) {
-        return note.innerHTML;
-      } else {
-        return "";
-      }
-    });
-  }
-  const xrefs = window.document.querySelectorAll('a.quarto-xref');
-  const processXRef = (id, note) => {
-    // Strip column container classes
-    const stripColumnClz = (el) => {
-      el.classList.remove("page-full", "page-columns");
-      if (el.children) {
-        for (const child of el.children) {
-          stripColumnClz(child);
-        }
-      }
-    }
-    stripColumnClz(note)
-    if (id === null || id.startsWith('sec-')) {
-      // Special case sections, only their first couple elements
-      const container = document.createElement("div");
-      if (note.children && note.children.length > 2) {
-        container.appendChild(note.children[0].cloneNode(true));
-        for (let i = 1; i < note.children.length; i++) {
-          const child = note.children[i];
-          if (child.tagName === "P" && child.innerText === "") {
-            continue;
-          } else {
-            container.appendChild(child.cloneNode(true));
-            break;
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
           }
         }
-        if (window.Quarto?.typesetMath) {
-          window.Quarto.typesetMath(container);
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
         }
-        return container.innerHTML
       } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
         if (window.Quarto?.typesetMath) {
           window.Quarto.typesetMath(note);
         }
-        return note.innerHTML;
-      }
-    } else {
-      // Remove any anchor links if they are present
-      const anchorLink = note.querySelector('a.anchorjs-link');
-      if (anchorLink) {
-        anchorLink.remove();
-      }
-      if (window.Quarto?.typesetMath) {
-        window.Quarto.typesetMath(note);
-      }
-      if (note.classList.contains("callout")) {
-        return note.outerHTML;
-      } else {
-        return note.innerHTML;
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
       }
     }
-  }
-  for (var i=0; i<xrefs.length; i++) {
-    const xref = xrefs[i];
-    tippyHover(xref, undefined, function(instance) {
-      instance.disable();
-      let url = xref.getAttribute('href');
-      let hash = undefined; 
-      if (url.startsWith('#')) {
-        hash = url;
-      } else {
-        try { hash = new URL(url).hash; } catch {}
-      }
-      if (hash) {
-        const id = hash.replace(/^#\/?/, "");
-        const note = window.document.getElementById(id);
-        if (note !== null) {
-          try {
-            const html = processXRef(id, note.cloneNode(true));
-            instance.setContent(html);
-          } finally {
-            instance.enable();
-            instance.show();
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
           }
         } else {
-          // See if we can fetch this
-          fetch(url.split('#')[0])
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
           .then(res => res.text())
           .then(html => {
             const parser = new DOMParser();
             const htmlDoc = parser.parseFromString(html, "text/html");
-            const note = htmlDoc.getElementById(id);
+            const note = htmlDoc.querySelector('main.content');
             if (note !== null) {
-              const html = processXRef(id, note);
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
               instance.setContent(html);
             } 
           }).finally(() => {
@@ -996,185 +1007,161 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
             instance.show();
           });
         }
-      } else {
-        // See if we can fetch a full url (with no hash to target)
-        // This is a special case and we should probably do some content thinning / targeting
-        fetch(url)
-        .then(res => res.text())
-        .then(html => {
-          const parser = new DOMParser();
-          const htmlDoc = parser.parseFromString(html, "text/html");
-          const note = htmlDoc.querySelector('main.content');
-          if (note !== null) {
-            // This should only happen for chapter cross references
-            // (since there is no id in the URL)
-            // remove the first header
-            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
-              note.children[0].remove();
-            }
-            const html = processXRef(null, note);
-            instance.setContent(html);
-          } 
-        }).finally(() => {
-          instance.enable();
-          instance.show();
-        });
-      }
-    }, function(instance) {
-    });
-  }
-      let selectedAnnoteEl;
-      const selectorForAnnotation = ( cell, annotation) => {
-        let cellAttr = 'data-code-cell="' + cell + '"';
-        let lineAttr = 'data-code-annotation="' +  annotation + '"';
-        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
-        return selector;
-      }
-      const selectCodeLines = (annoteEl) => {
-        const doc = window.document;
-        const targetCell = annoteEl.getAttribute("data-target-cell");
-        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
-        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
-        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
-        const lineIds = lines.map((line) => {
-          return targetCell + "-" + line;
-        })
-        let top = null;
-        let height = null;
-        let parent = null;
-        if (lineIds.length > 0) {
-            //compute the position of the single el (top and bottom and make a div)
-            const el = window.document.getElementById(lineIds[0]);
-            top = el.offsetTop;
-            height = el.offsetHeight;
-            parent = el.parentElement.parentElement;
-          if (lineIds.length > 1) {
-            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
-            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
-            height = bottom - top;
-          }
-          if (top !== null && height !== null && parent !== null) {
-            // cook up a div (if necessary) and position it 
-            let div = window.document.getElementById("code-annotation-line-highlight");
-            if (div === null) {
-              div = window.document.createElement("div");
-              div.setAttribute("id", "code-annotation-line-highlight");
-              div.style.position = 'absolute';
-              parent.appendChild(div);
-            }
-            div.style.top = top - 2 + "px";
-            div.style.height = height + 4 + "px";
-            div.style.left = 0;
-            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
-            if (gutterDiv === null) {
-              gutterDiv = window.document.createElement("div");
-              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
-              gutterDiv.style.position = 'absolute';
-              const codeCell = window.document.getElementById(targetCell);
-              const gutter = codeCell.querySelector('.code-annotation-gutter');
-              gutter.appendChild(gutterDiv);
-            }
-            gutterDiv.style.top = top - 2 + "px";
-            gutterDiv.style.height = height + 4 + "px";
-          }
-          selectedAnnoteEl = annoteEl;
-        }
-      };
-      const unselectCodeLines = () => {
-        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
-        elementsIds.forEach((elId) => {
-          const div = window.document.getElementById(elId);
-          if (div) {
-            div.remove();
-          }
-        });
-        selectedAnnoteEl = undefined;
-      };
-        // Handle positioning of the toggle
-    window.addEventListener(
-      "resize",
-      throttle(() => {
-        elRect = undefined;
-        if (selectedAnnoteEl) {
-          selectCodeLines(selectedAnnoteEl);
-        }
-      }, 10)
-    );
-    function throttle(fn, ms) {
-    let throttle = false;
-    let timer;
-      return (...args) => {
-        if(!throttle) { // first call gets through
-            fn.apply(this, args);
-            throttle = true;
-        } else { // all the others get throttled
-            if(timer) clearTimeout(timer); // cancel #2
-            timer = setTimeout(() => {
-              fn.apply(this, args);
-              timer = throttle = false;
-            }, ms);
-        }
-      };
-    }
-      // Attach click handler to the DT
-      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
-      for (const annoteDlNode of annoteDls) {
-        annoteDlNode.addEventListener('click', (event) => {
-          const clickedEl = event.target;
-          if (clickedEl !== selectedAnnoteEl) {
-            unselectCodeLines();
-            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
-            if (activeEl) {
-              activeEl.classList.remove('code-annotation-active');
-            }
-            selectCodeLines(clickedEl);
-            clickedEl.classList.add('code-annotation-active');
-          } else {
-            // Unselect the line
-            unselectCodeLines();
-            clickedEl.classList.remove('code-annotation-active');
-          }
-        });
-      }
-  const findCites = (el) => {
-    const parentEl = el.parentElement;
-    if (parentEl) {
-      const cites = parentEl.dataset.cites;
-      if (cites) {
-        return {
-          el,
-          cites: cites.split(' ')
-        };
-      } else {
-        return findCites(el.parentElement)
-      }
-    } else {
-      return undefined;
-    }
-  };
-  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
-  for (var i=0; i<bibliorefs.length; i++) {
-    const ref = bibliorefs[i];
-    const citeInfo = findCites(ref);
-    if (citeInfo) {
-      tippyHover(citeInfo.el, function() {
-        var popup = window.document.createElement('div');
-        citeInfo.cites.forEach(function(cite) {
-          var citeDiv = window.document.createElement('div');
-          citeDiv.classList.add('hanging-indent');
-          citeDiv.classList.add('csl-entry');
-          var biblioDiv = window.document.getElementById('ref-' + cite);
-          if (biblioDiv) {
-            citeDiv.innerHTML = biblioDiv.innerHTML;
-          }
-          popup.appendChild(citeDiv);
-        });
-        return popup.innerHTML;
+      }, function(instance) {
       });
     }
-  }
-});
-</script>
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
