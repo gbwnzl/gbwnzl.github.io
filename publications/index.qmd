@@ -24,10 +24,10 @@ about:
 
 ## 2025
 
-Toru Shay, H.; **Wenzel, G.**; Xue, C.; McGuire, B. A. Bridging Machine Learning and Spectroscopy: A New Analysis for Astrochemical Target Selection. Accepted for publication in *The Astrophysical Journal*.
-
 Slumstrup, L.; Thrower, J. D.; Hopkinson, A. T.; **Wenzel, G.**; Jaganathan, R.; Schrauwen, J. G. M.; Redlich, B.; Ioppolo, S.; Hornekær, L. CO Desorption from Interstellar Icy Grains Induced by IR Excitation of Superhydrogenated PAHs. *arXiv* July 10, 2025.
 <a href="https://doi.org/10.48550/arXiv.2507.07896"><span class="badge rounded-pill bg-danger">arXiv</span></a>
+
+Toru Shay, H.; **Wenzel, G.**; Xue, C.; McGuire, B. A. Bridging Machine Learning and Spectroscopy: A New Analysis for Astrochemical Target Selection. *The Astrophysical Journal* 2025, 993 (1), 75. <a href="https://iopscience.iop.org/article/10.3847/1538-4357/ae03ae"><span class="badge rounded-pill bg-primary">DOI</span></a>
 
 Xue, C.; Byrne, A. N.; Morgan, L.; **Wenzel, G.**; Changala, P. B.; Fried, Z. T. P.; Loomis, R. A.; Remijan, A.; Bergin, E. A.; Cooke, I. R.; Frayer, D.; Burkhardt, A. M.; Charnley, S. B.; Cordiner, M. A.; Lipnicky, A.; McCarthy, M. C.; McGuire, B. A. The Molecular Inventory of TMC-1 with GOTHAM Observations. *The Astrophysical Journal Supplement Series* 2025, 281 (1), 9. <a href="https://iopscience.iop.org/article/10.3847/1538-4365/ae04e5"><span class="badge rounded-pill bg-primary">DOI</span></a> 
 
