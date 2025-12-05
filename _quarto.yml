@@ -3,6 +3,11 @@ project:
   output-dir: docs
 
 website:
+  announcement:
+    content: "So happy to be recognized with the **2026 AAS LAD Early Career Award**!" 
+    position: below-navbar
+    icon: award
+    type: primary
   title: "MIT & CfA | Laboratory Astrophysics & Astrochemistry"
   favicon: files/coronene_icon.png
   description: "Gabi Wenzel is a laboratory astrophysicist at MIT & CfA | Harvard & Smithsonian exploring interstellar PAHs, their role in astrochemistry, and bridging the gap between the lab and outer space."

@@ -24,8 +24,9 @@ about:
 
 ## 2025
 
-Slumstrup, L.; Thrower, J. D.; Hopkinson, A. T.; **Wenzel, G.**; Jaganathan, R.; Schrauwen, J. G. M.; Redlich, B.; Ioppolo, S.; Hornekær, L. CO Desorption from Interstellar Icy Grains Induced by IR Excitation of Superhydrogenated PAHs. *arXiv* July 10, 2025.
-<a href="https://doi.org/10.48550/arXiv.2507.07896"><span class="badge rounded-pill bg-danger">arXiv</span></a>
+Stewart, D. A.; Speak, T. H.; Yuan, E.; Willis, R. H. J.; Sconce, V.; Fried, Z. T. P.; Holdren, M. S.; Lipnicky, A.; Shingledecker, C. N.; McCarthy, M. C.; Cooke, I. R.;  **Wenzel, G.**; McGuire, B. A. Centimeter-wave Rotational Spectroscopy of Ethynylbenzonitriles: Ground State Structural Parameters and Astronomical Search. *The Journal of Physical Chemistry A* (in press).  <a href="https://doi.org/10.1021/acs.jpca.5c05772"><span class="badge rounded-pill bg-primary">DOI</span></a>
+
+Slumstrup, L.; Thrower, J. D.; Hopkinson, A. T.; **Wenzel, G.**; Jaganathan, R.; Schrauwen, J. G. M.; Redlich, B.; Ioppolo, S.; Hornekær, L. CO Desorption from Interstellar Icy Grains Induced by IR Excitation of Superhydrogenated PAHs. *Astronomy & Astrophysics* 2025, 704, A74. <a href="https://doi.org/10.1051/0004-6361/202556399"><span class="badge rounded-pill bg-primary">DOI</span></a>
 
 Toru Shay, H.; **Wenzel, G.**; Xue, C.; McGuire, B. A. Bridging Machine Learning and Spectroscopy: A New Analysis for Astrochemical Target Selection. *The Astrophysical Journal* 2025, 993 (1), 75. <a href="https://iopscience.iop.org/article/10.3847/1538-4357/ae03ae"><span class="badge rounded-pill bg-primary">DOI</span></a>
 
