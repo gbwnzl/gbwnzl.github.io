@@ -22,9 +22,13 @@ about:
 <a href="https://www.researchgate.net/profile/Gabi-Wenzel"><span class="badge rounded-pill bg-primary">ResearchGate</span></a> 
 <a href="https://scholar.google.com/citations?user=7z3WAPsAAAAJ&hl=en&oi=ao"><span class="badge rounded-pill bg-primary">Google Scholar</span></a> 
 
+## 2026
+
+Ren, H.; Stewart, D. A.; **Wenzel, G.**; Speak, T. H.; Holdren, M. S.; Willis, R. H. J.; McGuire, B. A. Rotational Spectra and Search for Aromatic Imines: 9-Iminofluorene and Benzophenone Imine. *The Astrophysical Journal* 2026, 996 (1), 108. <a href="https://doi.org/10.3847/1538-4357/ae29ab"><span class="badge rounded-pill bg-primary">DOI</span></a>
+
 ## 2025
 
-Stewart, D. A.; Speak, T. H.; Yuan, E.; Willis, R. H. J.; Sconce, V.; Fried, Z. T. P.; Holdren, M. S.; Lipnicky, A.; Shingledecker, C. N.; McCarthy, M. C.; Cooke, I. R.;  **Wenzel, G.**; McGuire, B. A. Centimeter-wave Rotational Spectroscopy of Ethynylbenzonitriles: Ground State Structural Parameters and Astronomical Search. *The Journal of Physical Chemistry A* (in press).  <a href="https://doi.org/10.1021/acs.jpca.5c05772"><span class="badge rounded-pill bg-primary">DOI</span></a>
+Stewart, D. A.; Speak, T. H.; Yuan, E.; Willis, R. H. J.; Sconce, V.; Fried, Z. T. P.; Holdren, M. S.; Lipnicky, A.; Shingledecker, C. N.; McCarthy, M. C.; Cooke, I. R.;  **Wenzel, G.**; McGuire, B. A. Centimeter-wave Rotational Spectroscopy of Ethynylbenzonitriles: Ground State Structural Parameters and Astronomical Search. *The Journal of Physical Chemistry A* 2025, 129 (49), 11400–11413.  <a href="https://doi.org/10.1021/acs.jpca.5c05772"><span class="badge rounded-pill bg-primary">DOI</span></a>
 
 Slumstrup, L.; Thrower, J. D.; Hopkinson, A. T.; **Wenzel, G.**; Jaganathan, R.; Schrauwen, J. G. M.; Redlich, B.; Ioppolo, S.; Hornekær, L. CO Desorption from Interstellar Icy Grains Induced by IR Excitation of Superhydrogenated PAHs. *Astronomy & Astrophysics* 2025, 704, A74. <a href="https://doi.org/10.1051/0004-6361/202556399"><span class="badge rounded-pill bg-primary">DOI</span></a>
 
