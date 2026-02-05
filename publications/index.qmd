@@ -24,6 +24,8 @@ about:
 
 ## 2026
 
+Byrne, A. N.; Shingledecker, C. N.; Bergin, E. A.; Holdren, M. S.; **Wenzel, G.**; Xue, C.; Van Voorhis, T.; McGuire, B. A. Modeling the Effect of C/O Ratio on Complex Carbon Chemistry in Cold Molecular Clouds. *The Astrophysical Journal* 2026, 998 (1), 95. <a href="https://doi.org/10.3847/1538-4357/ae2fed"><span class="badge rounded-pill bg-primary">DOI</span></a>
+
 Ren, H.; Stewart, D. A.; **Wenzel, G.**; Speak, T. H.; Holdren, M. S.; Willis, R. H. J.; McGuire, B. A. Rotational Spectra and Search for Aromatic Imines: 9-Iminofluorene and Benzophenone Imine. *The Astrophysical Journal* 2026, 996 (1), 108. <a href="https://doi.org/10.3847/1538-4357/ae29ab"><span class="badge rounded-pill bg-primary">DOI</span></a>
 
 ## 2025
