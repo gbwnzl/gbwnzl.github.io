@@ -31,6 +31,8 @@ website:
         text: CV
       - href: publications/index.qmd
         text: Publications
+      - href: talks/index.qmd
+        text: Talks
       - href: news/index.qmd
         text: News
     right: 

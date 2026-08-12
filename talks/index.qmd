@@ -1,0 +1,47 @@
+---
+title: "Talks <br> Gabi Wenzel"
+image: "../Untitled-modified.png"
+about:
+    template: trestles
+    image-width: "2in"
+    image-shape: round
+    links:
+        - icon: envelope
+          href: mailto:gwenzel@mit.edu
+        - icon: linkedin
+          href: https://www.linkedin.com/in/gabiwenzel/
+        - icon: github
+          href: https://github.com/gbwnzl
+        - icon: google
+          href: https://scholar.google.com/citations?user=7z3WAPsAAAAJ&hl=en&oi=ao
+---
+
+## Future Presentations
+
+Department of Chemistry and Chemical & Biomedical Engineering, University of New Haven, New Haven, CT, USA, October 2026
+
+NRAO and Department of Astronomy, University of Virginia, Charlottesville, VA, USA, October 2026
+
+European Conference on Laboratory Astrophysics (ECLA), Heidelberg, Germany, September 2026
+
+## Selected Past Presentations
+
+Committee on Space Research (COSPAR) Meeting, Florence, Italy, August 2026
+
+Exploring the Aromatic Universe in the JWST Era, London, Canada, July 2026
+
+248<sup>th</sup> Meeting of the American Astronomical Society, Pasadena, CA, USA, June 2026
+
+Virtual International Microwave Seminar, Hamburg, Germany, July 2025
+
+Press Briefing at the 246<sup>th</sup> AAS Meeting, Anchorage, AK, USA, June 2025 <a href="https://www.youtube.com/live/gJjSZu9ob8Q?feature=shared&t=162"><span class="badge rounded-pill bg-primary">Video</span></a>
+
+3<sup>rd</sup> COST NanoSpace Joint Scientific Meeting, Kaunas, Lithuania, May 2025
+
+InterCat Seminar, Aarhus University, Denmark, March 2025 <a href="https://youtu.be/gtiEELmpEM4"><span class="badge rounded-pill bg-primary">Video</span></a>
+
+Green Bank Telescope (GBT) Webinar, December 2024 <a href="https://www.youtube.com/watch?v=TtGRJAducdE"><span class="badge rounded-pill bg-primary">Video</span></a>
+
+Annual German LabAstro Meeting, Schloss Ringberg, Germany, September 2024
+
+CFEL Molecular and Ultrafast Science Seminars, DESY, Hamburg, Germany, September 2024
