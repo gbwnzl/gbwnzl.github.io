@@ -24,6 +24,14 @@ about:
 
 ## 2026
 
+Fried, Z. T. P.; Loomis, R. A.; Jørgensen, J. K.; Lipnicky, A.; Xue, C.; **Wenzel, G.**; Speak, T. H.; McCarthy, M. C.; McGuire, B. A. Automated Assignment and Prediction of Molecules in Astronomical Line Surveys Using Machine-Learning-Based Chemical Embeddings. *The Astrophysical Journal* 2026, 1009 (2), 173. <a href="https://doi.org/10.3847/1538-4357/ae9a8e"><span class="badge rounded-pill bg-primary">DOI</span></a>
+
+Mehalko, K. T.; Esselman, B. J.; Franke, P. R.; Holdren, M. S.; **Wenzel, G.**; Stewart, D. A.; Burke, Z. P.; McGuire, B. A.; Woods, R. C.; McMahon, R. J. Structure of Furan from 44 Isotopologues -- Resolving Differences in the Theoretical ($r_e$) and Semi-Experimental Equilibrium ($r_e^\mathrm{SE}$) Structures. *The Journal of Physical Chemistry A* 2026, 130 (39), 7738−7800.  <a href="https://doi.org/10.1021/acs.jpca.6c04036"><span class="badge rounded-pill bg-primary">DOI</span></a>
+
+Chidester, N.; Stewart, D. A.; Speak, T. H.; Berger, L.; Holdren, M. S.; Hariharan, A.; Lipnicky, A.; Cooke, I. R.; **Wenzel, G.**; McGuire, B. A. Astronomical Search and Astrochemical Study of Cyanoisoquinolines in TMC-1: Rotational Spectroscopy and Interstellar Investigation. *The Journal of Physical Chemistry A* 2026, 130 (37), 7366-7382. <a href="https://doi.org/10.1021/acs.jpca.6c03494"><span class="badge rounded-pill bg-primary">DOI</span></a>
+
+Duffy, M.; Loomis, R. A.; Holdren, M. S.; Lipnicky, A.; Stewart, D. A.; **Wenzel, G.**; Xue, C.; Hariharan, A.; Cooke, I. R.; Remijan, A. J.; McCarthy, M. C.; McGuire, B. A. Exploring the Limits of Spectral Line Stacking in Spectral Line Data and Application Toward the Detection of Bulk $^{13}$C Enrichment of Aromatics in TMC-1. *The Astrophysical Journal* 2026, 1008 (1), 63. <a href="https://doi.org/10.3847/1538-4357/ae8a3d"><span class="badge rounded-pill bg-primary">DOI</span></a>
+
 **Wenzel, G.**; Speak, T. H.; Xue, C.; Bergin, E. A.; Burkhardt, A. M.; Cordiner, M. A.; Duffy, M.; Fried, Z. T. P.; Lipnicky, A.; Shingledecker, C. N.; Willis, R. H. J.; Remijan, A. J.; McCarthy, M. C.; McGuire, B. A.; Cooke, I. R. Detection of the Polycyclic Aromatic Hydrocarbon Phenalene in the Very Low-Luminosity Object MC27/L1521F. *The Astrophysical Journal Letters* 2026, 1006 (2), L38. <a href="https://doi.org/10.3847/2041-8213/ae8757"><span class="badge rounded-pill bg-primary">DOI</span></a>
 
 Holdren, M. S.; Fried, Z. T. P.; Stewart, D. A.; **Wenzel, G.**; Speak, T. H.; McGuire, B. A. Rotational Spectra and Interstellar Search for Chiral and Achiral Butynols and Butenols: 3-butyn-2-ol, 3-buten-2-ol, 3-butyn-1-ol, and 3-buten-1-ol. *ACS Earth and Space Chemistry* 2026, 10 (2), 406−420. <a href="https://doi.org/10.1021/acsearthspacechem.5c00247"><span class="badge rounded-pill bg-primary">DOI</span></a>
